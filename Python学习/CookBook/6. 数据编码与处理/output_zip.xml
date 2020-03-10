@@ -1,0 +1,3181 @@
+﻿<output version="2.0" filename="zip">
+<!-- Date:20190830 -->
+	<record name="JZ_SOURCE_COMMON" dataset="JZ_SOURCE_COMMON">
+		<field attr="mtypeAdapter">
+			<ITEM key="08A0001" eng="PROTOCOL_CODE" chn="" rmk="" />
+		</field>
+		<field attr="datatypeAdapter">
+			<ITEM key="08A0002" eng="DATA_TYPE" chn="" rmk="" />
+		</field>
+		<field attr="actionAdapter">
+			<ITEM key="08A0003" eng="ACTION" chn="" rmk="" />
+		</field>
+		<field key="isp_id">
+			<ITEM key="02B0001" eng="MID_ISP_CODE" chn="服务号码运营商" rmk="" />
+		</field>
+		<field key="auth_type">
+			<ITEM key="02D0021" eng="MID_AUTH_TYPE" chn="服务号码认证类型" rmk="" />
+		</field>
+		<field key="data_source">
+			<ITEM key="02E0016" eng="DATA_SOURCE" chn="数据源" rmk="" />
+		</field>
+		<field key="collect_place">
+			<ITEM key="06A0008" eng="COLLECT_PLACE" chn="采集地" rmk="" />
+		</field>
+		<field key="src_ip">
+			<ITEM key="06B0004" eng="SRC_IP" chn="源IP" rmk="" />
+		</field>
+		<field key="dst_ip">
+			<ITEM key="06B0005" eng="DST_IP" chn="目的IP" rmk="" />
+		</field>
+		<field key="src_port">
+			<ITEM key="06B0006" eng="SRC_PORT" chn="源IP端口" rmk="" />
+		</field>
+		<field key="dst_port">
+			<ITEM key="06B0007" eng="DST_PORT" chn="目的端口" rmk="" />
+		</field>
+		<field key="src_ip_area">
+			<ITEM key="06B0016" eng="SRC_IP_AREA" chn="源IP区域标识" rmk="" />
+		</field>
+		<field key="dst_ip_area">
+			<ITEM key="06B0017" eng="DST_IP_AREA" chn="目的IP区域标识" rmk="" />
+		</field>
+		<field key="company_name">
+			<ITEM key="07B0014" eng="COMPANY_NAME" chn="厂商" rmk="" />
+		</field>
+		<field key="capture_time">
+			<ITEM key="08A0014" eng="CAPTURE_TIME" chn="捕获时间" rmk="" />
+		</field>
+		<field key="other_file">
+			<ITEM key="08A0020" eng="OTHER_FILE" chn="其他实体文件" rmk="" />
+		</field>
+		<field key="other_file_md5">
+			<ITEM key="08A0038" eng="OTHER_FILE_MD5" chn="其他实体文件MD5" rmk="" />
+		</field>
+		<field key="local_action">
+			<ITEM key="08D0002" eng="LOCAL_ACTION" chn="数据标识" rmk="" />
+		</field>
+		<field key="entitypath">
+			<ITEM key="entitypath" eng="ENTITY_PATH" chn="" rmk="" />
+		</field>
+		<field key="filename">
+			<ITEM key="filename" eng="FILE_NAME" chn="" rmk="" />
+		</field>
+		<field key="bcpname">
+			<ITEM key="bcpname" eng="BCP_NAME" chn="" rmk="" />
+		</field>
+		<field key="data_type"/>
+		<field key="protocol_type"/>
+		<field key="action"/>
+	</record>
+	<record name="HTTPS" dataset="JZ_SOURCE_0010">
+		<field key="clientversion">
+			<ITEM key="13AZ313" eng="clientVersion" chn="客户端版本" rmk="" />
+		</field>
+		<field key="clientrandom">
+			<ITEM key="13AZ314" eng="clientRandom" chn="客户端随机数" rmk="" />
+		</field>
+		<field key="clientsessionid">
+			<ITEM key="08E0002" eng="clientSessionId" chn="客户端会话ID" rmk="" />
+		</field>
+		<field key="clientciphersuite">
+			<ITEM key="13AZ316" eng="clientCipherSuite" chn="客户端密码套件" rmk="" />
+		</field>
+		<field key="clientcompressionmethod">
+			<ITEM key="13AZ317" eng="clientCompressionMethod" chn="客户端压缩算法" rmk="" />
+		</field>
+		<field key="serverversion">
+			<ITEM key="13AZ318" eng="serverVersion" chn="服务端版本" rmk="" />
+		</field>
+		<field key="serverrandom">
+			<ITEM key="13AZ319" eng="serverRandom" chn="服务端随机数" rmk="" />
+		</field>
+		<field key="sessionid">
+			<ITEM key="08E0004" eng="serverSessionId" chn="服务端会话ID" rmk="" />
+		</field>
+		<field key="serverciphersuite">
+			<ITEM key="13AZ321" eng="serverCipherSuite" chn="服务端密码套件" rmk="" />
+		</field>
+		<field key="servercompressionmethod">
+			<ITEM key="13AZ322" eng="serverCompressionMethod" chn="服务端压缩算法" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="VPN" dataset="JZ_SOURCE_0011">
+		<field key="tunnelid">
+			<ITEM key="08E0002" eng="TUNNEL_ID" chn="隧道中的会话号" rmk="" />
+		</field>
+		<field key="sessionid">
+			<ITEM key="08A0013" eng="SESSIONID" chn="标识ID（会话ID）" rmk="" />
+		</field>
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="messageType" chn="消息类型" rmk="" />
+		</field>
+		<field key="hostname">
+			<ITEM key="SS00019" eng="hostName" chn="主机名" rmk="" />
+		</field>
+		<field key="callednumber">
+			<ITEM key="13AZ220" eng="calledNumber" chn="被叫标识" rmk="" />
+		</field>
+		<field key="callingnumber">
+			<ITEM key="13AZ219" eng="callerNumber" chn="主叫标识" rmk="" />
+		</field>
+		<field key="vendorname">
+			<ITEM key="07B0014" eng="vendorName" chn="厂商名称" rmk="" />
+		</field>
+		<field key="challenge">
+			<ITEM key="13AZ324" eng="challenge" chn="挑战串" rmk="" />
+		</field>
+		<field key="callid">
+			<ITEM key="13AZ439" eng="连接标识" chn="callid" rmk="" />
+		</field>
+		<field key="controlmessagetype">
+			<ITEM key="13AZ452" eng="控制消息类型" chn="controlmessagetype" rmk="" />
+		</field>
+		<field key="icrpcallid">
+			<ITEM key="13AZ453" eng="呼叫的ID" chn="icrpcallid" rmk="" />
+		</field>
+		<field key="icrpincomingcallreqerror">
+			<ITEM key="13AZ454" eng="呼入请求错误" chn="icrpincomingcallreqerror" rmk="" />
+		</field>
+		<field key="icrpincomingcallreqresult">
+			<ITEM key="13AZ455" eng="呼入请求结果" chn="icrpincomingcallreqresult" rmk="" />
+		</field>
+		<field key="icrppeercallid">
+			<ITEM key="13AZ456" eng="每个呼叫人的ID" chn="icrppeercallid" rmk="" />
+		</field>
+		<field key="icrppktrecvwindowsize">
+			<ITEM key="13AZ457" eng="数据包窗口大小" chn="icrppktrecvwindowsize" rmk="" />
+		</field>
+		<field key="icrptransitdelay">
+			<ITEM key="13AZ417" eng="传输延时" chn="icrptransitdelay" rmk="" />
+		</field>
+		<field key="icrq_pptp_physical_channel_id">
+			<ITEM key="13AZ458" eng="物理频道ID" chn="icrq_pptp_physical_channel_id" rmk="" />
+		</field>
+		<field key="icrqbearertype">
+			<ITEM key="SS00120" eng="承载类型" chn="icrqbearertype" rmk="" />
+		</field>
+		<field key="icrqcallid">
+			<ITEM key="08A0013" eng="icrq会话ID" chn="icrqcallid" rmk="" />
+		</field>
+		<field key="icrqcallserialnumber">
+			<ITEM key="13AZ459" eng="icrq呼叫序列号" chn="icrqcallserialnumber" rmk="" />
+		</field>
+		<field key="icrqdialednumberlen">
+			<ITEM key="13AZ460" eng="通话结束数字" chn="icrqdialednumberlen" rmk="" />
+		</field>
+		<field key="icrqdialingnumber">
+			<ITEM key="13AZ461" eng="拨号号码" chn="icrqdialingnumber" rmk="" />
+		</field>
+		<field key="icrqdialingnumberlen">
+			<ITEM key="13AZ462" eng="通话过程数字长度" chn="icrqdialingnumberlen" rmk="" />
+		</field>
+		<field key="icrqsubaddress">
+			<ITEM key="13AZ463" eng="子地址" chn="icrqsubaddress" rmk="" />
+		</field>
+		<field key="ocrp_pptp_connect_speed">
+			<ITEM key="13AZ464" eng="连接使用的实际速率" chn="ocrp_pptp_connect_speed" rmk="" />
+		</field>
+		<field key="ocrpoutcallcause">
+			<ITEM key="13AZ465" eng="呼叫原因" chn="ocrpoutcallcause" rmk="" />
+		</field>
+		<field key="ocrpoutcallerror">
+			<ITEM key="13AZ466" eng="OcrpOutCall错误码" chn="ocrpoutcallerror" rmk="" />
+		</field>
+		<field key="ocrpoutcallreqresult">
+			<ITEM key="13AZ467" eng="Outgoing_call_request" chn="ocrpoutcallreqresult" rmk="" />
+		</field>
+		<field key="ocrppeercallid">
+			<ITEM key="13AZ468" eng="Call ID值" chn="ocrppeercallid" rmk="" />
+		</field>
+		<field key="ocrpphysicalchannelid">
+			<ITEM key="13AZ469" eng="物理信道ID" chn="ocrpphysicalchannelid" rmk="" />
+		</field>
+		<field key="ocrppktprocessingdelay">
+			<ITEM key="13AZ470" eng="数据包处理的延时度量" chn="ocrppktprocessingdelay" rmk="" />
+		</field>
+		<field key="ocrppktrecvwindowsize">
+			<ITEM key="13AZ471" eng="Ocrp最大接收缓冲大小" chn="ocrppktrecvwindowsize" rmk="" />
+		</field>
+		<field key="ocrqbearertype">
+			<ITEM key="13AZ472" eng="承载访问支持类型" chn="ocrqbearertype" rmk="" />
+		</field>
+		<field key="ocrqcallseqnum">
+			<ITEM key="13AZ473" eng="ocrq呼叫序列号" chn="ocrqcallseqnum" rmk="" />
+		</field>
+		<field key="ocrqframingtype">
+			<ITEM key="13AZ474" eng="帧类型" chn="ocrqframingtype" rmk="" />
+		</field>
+		<field key="ocrqmaximumbps">
+			<ITEM key="13AZ475" eng="最大传输速度" chn="ocrqmaximumbps" rmk="" />
+		</field>
+		<field key="ocrqminimumbps">
+			<ITEM key="13AZ476" eng="最低传输速度" chn="ocrqminimumbps" rmk="" />
+		</field>
+		<field key="ocrqphonenumlen">
+			<ITEM key="13AZ477" eng="拔号号码长度" chn="ocrqphonenumlen" rmk="" />
+		</field>
+		<field key="ocrqpktprocessingdelay">
+			<ITEM key="13AZ478" eng="延时度量" chn="ocrqpktprocessingdelay" rmk="" />
+		</field>
+		<field key="ocrqpktrecvwindowsize">
+			<ITEM key="13AZ479" eng="Ocrq最大接收缓冲大小" chn="ocrqpktrecvwindowsize" rmk="" />
+		</field>
+		<field key="ocrqsubaddress">
+			<ITEM key="13AZ480" eng="额外信息域" chn="ocrqsubaddress" rmk="" />
+		</field>
+		<field key="pptpversion">
+			<ITEM key="13AZ481" eng="PPTP版本号" chn="pptpversion" rmk="" />
+		</field>
+		<field key="sccrpbearercapabilities">
+			<ITEM key="13AZ482" eng="每个的容量" chn="sccrpbearercapabilities" rmk="" />
+		</field>
+		<field key="sccrpcontrolresult">
+			<ITEM key="13AZ483" eng="结果码" chn="sccrpcontrolresult" rmk="" />
+		</field>
+		<field key="sccrperror">
+			<ITEM key="13AZ484" eng="Sccrp错误码" chn="sccrperror" rmk="" />
+		</field>
+		<field key="sccrpfirmwarerevision">
+			<ITEM key="13AZ485" eng="固件版本" chn="sccrpfirmwarerevision" rmk="" />
+		</field>
+		<field key="sccrpframingcapabilities">
+			<ITEM key="13AZ486" eng="集群容量" chn="sccrpframingcapabilities" rmk="" />
+		</field>
+		<field key="sccrphostname">
+			<ITEM key="13AZ487" eng="Sccrp主机名" chn="sccrphostname" rmk="" />
+		</field>
+		<field key="sccrpmaximumchannels">
+			<ITEM key="13AZ488" eng="最大频道数" chn="sccrpmaximumchannels" rmk="" />
+		</field>
+		<field key="sccrqbearercapabilities">
+			<ITEM key="13AZ489" eng="数字访问支持." chn="sccrqbearercapabilities" rmk="" />
+		</field>
+		<field key="sccrqfirmwarerevision">
+			<ITEM key="13AZ490" eng="固件修订本编号" chn="sccrqfirmwarerevision" rmk="" />
+		</field>
+		<field key="sccrqframingcapabilities">
+			<ITEM key="13AZ491" eng="异步帧支持" chn="sccrqframingcapabilities" rmk="" />
+		</field>
+		<field key="sccrqmaximumchannels">
+			<ITEM key="13AZ492" eng="PPP 会话总数" chn="sccrqmaximumchannels" rmk="" />
+		</field>
+		<field key="sccrqvendorname">
+			<ITEM key="13AZ493" eng="sccrq厂商名称" chn="sccrqvendorname" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="SQL" dataset="JZ_SOURCE_9081">
+		<field key="userloginstring">
+			<ITEM key="10A0001" eng="userLoginString" chn="登录用户名" rmk="" />
+		</field>
+		<field key="databasename">
+			<ITEM key="13AZ329" eng="databaseName" chn="数据库名" rmk="" />
+		</field>
+		<field key="appname">
+			<ITEM key="03B0020" eng="app名" chn="AppName" rmk="" />
+		</field>
+		<field key="channel">
+			<ITEM key="13AZ494" eng="服务端进程ID" chn="Channel" rmk="" />
+		</field>
+		<field key="clientname">
+			<ITEM key="13AZ495" eng="客户端名称" chn="ClientName" rmk="" />
+		</field>
+		<field key="clientpid">
+			<ITEM key="13AZ496" eng="客户端ID" chn="ClientPID" rmk="" />
+		</field>
+		<field key="clientversion">
+			<ITEM key="13AZ313" eng="客户端版本" chn="clientVersion" rmk="" />
+		</field>
+		<field key="collation">
+			<ITEM key="13AZ497" eng="排序选项" chn="Collation" rmk="" />
+		</field>
+		<field key="connectionid">
+			<ITEM key="13AZ439" eng="连接ID" chn="ConnectionID" rmk="" />
+		</field>
+		<field key="gssapi">
+			<ITEM key="13AZ498" eng="是否采用Kerberos认证方式" chn="GSSAPI" rmk="" />
+		</field>
+		<field key="language_text">
+			<ITEM key="13AZ499" eng="语言名称" chn="Language_text" rmk="" />
+		</field>
+		<field key="locale">
+			<ITEM key="13AZ500" eng="语言环境" chn="Locale" rmk="" />
+		</field>
+		<field key="ntlmssp">
+			<ITEM key="13AZ501" eng="是否采用NTLM认证方式" chn="NTLMSSP" rmk="" />
+		</field>
+		<field key="option_flags1">
+			<ITEM key="13AZ502" eng="选项标识1" chn="Option_Flags1" rmk="" />
+		</field>
+		<field key="option_flags2">
+			<ITEM key="13AZ503" eng="选项标识2" chn="Option_Flags2" rmk="" />
+		</field>
+		<field key="packetnumber">
+			<ITEM key="13AZ504" eng="数据包序号" chn="PacketNumber" rmk="" />
+		</field>
+		<field key="packettype">
+			<ITEM key="13AZ434" eng="包类型" chn="PacketType" rmk="" />
+		</field>
+		<field key="password">
+			<ITEM key="99Z0146" eng="密码" chn="password" rmk="" />
+		</field>
+		<field key="query">
+			<ITEM key="13AZ505" eng="SQL语句" chn="Query" rmk="" />
+		</field>
+		<field key="reserved_flags">
+			<ITEM key="13AZ506" eng="保留标志" chn="Reserved_Flags" rmk="" />
+		</field>
+		<field key="servername">
+			<ITEM key="13AZ507" eng="服务器名" chn="ServerName" rmk="" />
+		</field>
+		<field key="serverversion">
+			<ITEM key="13AZ436" eng="服务端版本" chn="serverVersion" rmk="" />
+		</field>
+		<field key="sql_type_flags">
+			<ITEM key="13AZ508" eng="SQL类型选项标识" chn="SQL_Type_Flags" rmk="" />
+		</field>
+		<field key="timezone">
+			<ITEM key="SS00034" eng="客户端时区" chn="TimeZone" rmk="" />
+		</field>
+		<field key="window">
+			<ITEM key="13AZ509" eng="窗口" chn="Window" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="STUNS" dataset="JZ_SOURCE_9082">
+		<field key="username">
+			<ITEM key="02D0002" eng="ACCOUNT" chn="帐号" rmk="" />
+		</field>
+		<field key="password">
+			<ITEM key="02D0005" eng="PASSWORD" chn="密码" rmk="" />
+		</field>
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="messageType" chn="消息类型" rmk="" />
+		</field>
+		<field key="transactionid">
+			<ITEM key="13AZ330" eng="transactionID" chn="事务ID" rmk="" />
+		</field>
+		<field key="mappedaddress">
+			<ITEM key="13AZ331" eng="mappedAddress" chn="映射IP地址" rmk="" />
+		</field>
+		<field key="mappedport">
+			<ITEM key="13AZ332" eng="mappedPort" chn="映射端口" rmk="" />
+		</field>
+		<field key="responseaddress">
+			<ITEM key="13AZ333" eng="responseAddress" chn="响应IP地址" rmk="" />
+		</field>
+		<field key="responseport">
+			<ITEM key="13AZ334" eng="responsePort" chn="响应端口" rmk="" />
+		</field>
+		<field key="changeipflag">
+			<ITEM key="13AZ335" eng="changeIPFlag" chn="发送地址控制标识" rmk="" />
+		</field>
+		<field key="changeportflag">
+			<ITEM key="13AZ336" eng="changePortFlag" chn="端口控制标识" rmk="" />
+		</field>
+		<field key="changedaddress">
+			<ITEM key="13AZ337" eng="changedAddress" chn="变更IP地址" rmk="" />
+		</field>
+		<field key="changedport">
+			<ITEM key="13AZ338" eng="changedPort" chn="变更端口" rmk="" />
+		</field>
+		<field key="sourceaddress">
+			<ITEM key="13AZ339" eng="sourceAddress" chn="服务器发送Response消息的源IP地址" rmk="" />
+		</field>
+		<field key="sourceport">
+			<ITEM key="13AZ340" eng="sourcePort" chn="服务器发送Response消息的源端口号" rmk="" />
+		</field>
+		<field key="address_type">
+			<ITEM key="06B0002" eng="地址类型" chn="Address_type" rmk="" />
+		</field>
+		<field key="alternate_port">
+			<ITEM key="06B0003" eng="可选端口" chn="Alternate_port" rmk="" />
+		</field>
+		<field key="alternate_server">
+			<ITEM key="13AZ348" eng="可选地址" chn="Alternate_server" rmk="" />
+		</field>
+		<field key="bandwidth">
+			<ITEM key="13AZ418" eng="带宽" chn="Bandwidth" rmk="" />
+		</field>
+		<field key="cache_timeout">
+			<ITEM key="99Z0165" eng="Cache最长时间" chn="Cache_timeout" rmk="" />
+		</field>
+		<field key="change_ip_flag">
+			<ITEM key="13AZ335" eng="发送地址控制标志" chn="Change_ip_flag" rmk="" />
+		</field>
+		<field key="change_port_flag">
+			<ITEM key="13AZ336" eng="端口控制标志" chn="Change_port_flag" rmk="" />
+		</field>
+		<field key="channelnum">
+			<ITEM key="13AZ510" eng="频道数" chn="Channelnum" rmk="" />
+		</field>
+		<field key="destination_address">
+			<ITEM key="SS00047" eng="目的地址" chn="Destination_address" rmk="" />
+		</field>
+		<field key="destination_port">
+			<ITEM key="13AZ924" eng="目的端口" chn="Destination_port" rmk="" />
+		</field>
+		<field key="error_code">
+			<ITEM key="13AZ484" eng="错误码" chn="Error_code" rmk="" />
+		</field>
+		<field key="lifetime">
+			<ITEM key="SS00115" eng="下次刷新前服务器上映射的剩余持续时间" chn="Lifetime" rmk="" />
+		</field>
+		<field key="magic_cookie">
+			<ITEM key="13AZ429" eng="cookie" chn="Magic_cookie" rmk="" />
+		</field>
+		<field key="message_integrity">
+			<ITEM key="13AZ511" eng="消息完整性" chn="Message_integrity" rmk="" />
+		</field>
+		<field key="message_length">
+			<ITEM key="SS00027" eng="消息长度" chn="Message_length" rmk="" />
+		</field>
+		<field key="message_transaction_id">
+			<ITEM key="13AZ925" eng="Message事务ID" chn="Message_transaction_id" rmk="" />
+		</field>
+		<field key="other_address">
+			<ITEM key="13AZ512" eng="其他地址" chn="Other_address" rmk="" />
+		</field>
+		<field key="other_port">
+			<ITEM key="13AZ513" eng="其他端口" chn="Other_port" rmk="" />
+		</field>
+		<field key="priority">
+			<ITEM key="13AZ379" eng="优先级" chn="Priority" rmk="" />
+		</field>
+		<field key="realm">
+			<ITEM key="13AZ514" eng="认证域标识" chn="Realm" rmk="" />
+		</field>
+		<field key="reflected_from">
+			<ITEM key="13AZ515" eng="反射地址" chn="Reflected_from" rmk="" />
+		</field>
+		<field key="reflected_port">
+			<ITEM key="13AZ516" eng="反射端口" chn="Reflected_port" rmk="" />
+		</field>
+		<field key="remote_address">
+			<ITEM key="13AZ517" eng="备用地址" chn="Remote_address" rmk="" />
+		</field>
+		<field key="remote_port">
+			<ITEM key="13AZ518" eng="备用端口" chn="Remote_port" rmk="" />
+		</field>
+		<field key="remote_site_address">
+			<ITEM key="13AZ519" eng="远程服务器地址" chn="Remote_site_address" rmk="" />
+		</field>
+		<field key="remote_site_port">
+			<ITEM key="13AZ520" eng="远程服务器端口" chn="Remote_site_port" rmk="" />
+		</field>
+		<field key="reservation_token">
+			<ITEM key="13AZ521" eng="保留键" chn="Reservation_token" rmk="" />
+		</field>
+		<field key="response_origin_address">
+			<ITEM key="13AZ522" eng="响应源地址" chn="Response_origin_address" rmk="" />
+		</field>
+		<field key="response_origin_port">
+			<ITEM key="13AZ523" eng="响应源端口" chn="Response_origin_port" rmk="" />
+		</field>
+		<field key="server">
+			<ITEM key="13AZ507" eng="服务器" chn="Server" rmk="" />
+		</field>
+		<field key="software">
+			<ITEM key="03B0020" eng="软件名称" chn="Software" rmk="" />
+		</field>
+		<field key="tie_breaker">
+			<ITEM key="13AZ524" eng="中断器" chn="Tie_breaker" rmk="" />
+		</field>
+		<field key="xor_mapped_address">
+			<ITEM key="13AZ525" eng="异或后映射地址" chn="Xor_mapped_address" rmk="" />
+		</field>
+		<field key="xor_mapped_port">
+			<ITEM key="13AZ526" eng="异或后映射端口" chn="Xor_mapped_port" rmk="" />
+		</field>
+		<field key="xor_peer_address">
+			<ITEM key="13AZ527" eng="异或后对方地址" chn="Xor_peer_address" rmk="" />
+		</field>
+		<field key="xor_peer_port">
+			<ITEM key="13AZ528" eng="异或后对方端口" chn="Xor_peer_port" rmk="" />
+		</field>
+		<field key="xor_reflected_from">
+			<ITEM key="13AZ529" eng="异或后反射地址" chn="Xor_reflected_from" rmk="" />
+		</field>
+		<field key="xor_reflected_port">
+			<ITEM key="13AZ530" eng="异或后反射端口" chn="Xor_reflected_port" rmk="" />
+		</field>
+		<field key="xor_relayed_address">
+			<ITEM key="13AZ531" eng="异或后中继地址" chn="Xor_relayed_address" rmk="" />
+		</field>
+		<field key="xor_relayed_port">
+			<ITEM key="13AZ532" eng="异或后中继端口" chn="Xor_relayed_port" rmk="" />
+		</field>
+		<field key="xor_response_address">
+			<ITEM key="13AZ533" eng="异或后响应地址" chn="Xor_response_address" rmk="" />
+		</field>
+		<field key="xor_response_port">
+			<ITEM key="13AZ534" eng="异或后响应端口" chn="Xor_response_port" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="LDAPS" dataset="JZ_SOURCE_9111">
+		<field key="attributedesc">
+			<ITEM key="99Z0164" eng="属性描述" chn="AttributeDesc" rmk="" />
+		</field>
+		<field key="attributesjson">
+			<ITEM key="13AZ535" eng="JSON属性" chn="AttributesJson" rmk="" />
+		</field>
+		<field key="attributevalue">
+			<ITEM key="13AZ536" eng="属性值" chn="AttributeValue" rmk="" />
+		</field>
+		<field key="authenticationtype">
+			<ITEM key="13AZ374" eng="认证类型" chn="authenticationType" rmk="" />
+		</field>
+		<field key="baseobject">
+			<ITEM key="13AZ537" eng="基本对象" chn="baseObject" rmk="" />
+		</field>
+		<field key="bindrequest_name">
+			<ITEM key="13AZ538" eng="bind名" chn="BindRequest_name" rmk="" />
+		</field>
+		<field key="bindrequest_version">
+			<ITEM key="13AZ539" eng="bind版本" chn="BindRequest_Version" rmk="" />
+		</field>
+		<field key="derefaliases">
+			<ITEM key="02A0007" eng="别名" chn="derefAliases" rmk="" />
+		</field>
+		<field key="filter">
+			<ITEM key="13AZ540" eng="过滤" chn="Filter" rmk="" />
+		</field>
+		<field key="filtergrouptype">
+			<ITEM key="13AZ541" eng="过滤群组类型" chn="FilterGroupType" rmk="" />
+		</field>
+		<field key="messageid">
+			<ITEM key="13A0102" eng="消息标识" chn="MessageID" rmk="" />
+		</field>
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="消息类型" chn="MessageType" rmk="" />
+		</field>
+		<field key="netlogon_clientsite">
+			<ITEM key="13AZ542" eng="客户端登录站点" chn="netlogon_ClientSite" rmk="" />
+		</field>
+		<field key="netlogon_domain">
+			<ITEM key="13AZ543" eng="登录域名" chn="netlogon_Domain" rmk="" />
+		</field>
+		<field key="netlogon_domainguid">
+			<ITEM key="13AZ544" eng="登录域名所在的群组ID" chn="netlogon_DomainGUID" rmk="" />
+		</field>
+		<field key="netlogon_flags">
+			<ITEM key="13AZ545" eng="登录的标记" chn="netlogon_Flags" rmk="" />
+		</field>
+		<field key="netlogon_forest">
+			<ITEM key="10BZ003" eng="登录集群" chn="netlogon_Forest" rmk="" />
+		</field>
+		<field key="netlogon_hostname">
+			<ITEM key="13AZ546" eng="登录主机名" chn="netlogon_Hostname" rmk="" />
+		</field>
+		<field key="netlogon_netbiosdomain">
+			<ITEM key="13AZ547" eng="网络域名" chn="netlogon_NetBIOSDomain" rmk="" />
+		</field>
+		<field key="netlogon_netbioshostname">
+			<ITEM key="13AZ548" eng="网络主机名" chn="netlogon_NetBIOSHostname" rmk="" />
+		</field>
+		<field key="netlogon_opcode">
+			<ITEM key="13AZ549" eng="登录方法" chn="netlogon_Opcode" rmk="" />
+		</field>
+		<field key="netlogon_serversite">
+			<ITEM key="13AZ550" eng="登录的服务器站点" chn="netlogon_ServerSite" rmk="" />
+		</field>
+		<field key="netlogon_user">
+			<ITEM key="13AZ551" eng="登录用户" chn="netlogon_User" rmk="" />
+		</field>
+		<field key="netlogon_version">
+			<ITEM key="13AZ552" eng="登录的版本" chn="netlogon_Version" rmk="" />
+		</field>
+		<field key="referenceurl">
+			<ITEM key="08G9001" eng="来自URL" chn="referenceURL" rmk="" />
+		</field>
+		<field key="scope">
+			<ITEM key="13AZ553" eng="认证范围" chn="scope" rmk="" />
+		</field>
+		<field key="searchresdone_errormsg">
+			<ITEM key="13AZ554" eng="搜索结束 错误消息" chn="SearchResDone_errorMsg" rmk="" />
+		</field>
+		<field key="searchresdone_matcheddn">
+			<ITEM key="13AZ555" eng="搜索匹配成功" chn="SearchResDone_matchedDN" rmk="" />
+		</field>
+		<field key="searchresdone_rltcode">
+			<ITEM key="13AZ556" eng="搜索返回状态码" chn="SearchResDone_rltCode" rmk="" />
+		</field>
+		<field key="sizelimit">
+			<ITEM key="13AZ557" eng="大小限制" chn="sizeLimit" rmk="" />
+		</field>
+		<field key="srchresety_attrinum">
+			<ITEM key="13AZ558" eng="属性个数" chn="srchResEty_attriNum" rmk="" />
+		</field>
+		<field key="srchresety_objname">
+			<ITEM key="13AZ559" eng="对象名称" chn="srchResEty_objName" rmk="" />
+		</field>
+		<field key="timelimit">
+			<ITEM key="13AZ560" eng="时间限制" chn="timeLimit" rmk="" />
+		</field>
+		<field key="typeonly">
+			<ITEM key="13AZ561" eng="允许的类型" chn="typeOnly" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="主实体文件" chn="MAINFILE" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="主实体文件大小" chn="FILESIZE" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="主实体文件的MD5" chn="FILE_MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="辅助文件大小" chn="OTHER_FILE_SIZE" rmk="" />
+		</field>
+	</record>
+	<record name="AH" dataset="JZ_SOURCE_9083">
+		<field key="payloadlength">
+			<ITEM key="13AZ341" eng="payloadLength" chn="载荷长度" rmk="" />
+		</field>
+		<field key="securityParaterIndex">
+			<ITEM key="13AZ342" eng="securityParaterIndex" chn="安全参数索引" rmk="" />
+		</field>
+		<field key="sequencenumber">
+			<ITEM key="99Z0401" eng="CERT_SER_NUM" chn="序列号" rmk="" />
+		</field>
+		<field key="packetcheck">
+			<ITEM key="13AZ343" eng="packetCheck" chn="包校验" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="RADIUS" dataset="JZ_SOURCE_0044">
+		<field key="eigrpopcode">
+			<ITEM key="13AZ344" eng="code" chn="操作码" rmk="" />
+		</field>
+		<field key="authenticator">
+			<ITEM key="13AZ345" eng="authenticator" chn="认证字" rmk="" />
+		</field>
+		<field key="username">
+			<ITEM key="08I0011" eng="USERNAME" chn="登录名" rmk="" />
+		</field>
+		<field key="password">
+			<ITEM key="02D0005" eng="PASSWORD" chn="密码" rmk="" />
+		</field>
+		<field key="chappassword">
+			<ITEM key="99Z0146" eng="CHAPPASS" chn="Chap密码" rmk="" />
+		</field>
+		<field key="nasipaddress">
+			<ITEM key="13AZ346" eng="nasIPAddress" chn="网络接入服务器IP地址" rmk="" />
+		</field>
+		<field key="nasport">
+			<ITEM key="99Z0147" eng="NAS_PORT" chn="网络接入服务器端口" rmk="" />
+		</field>
+		<field key="servicetype">
+			<ITEM key="99Z0148" eng="SERVICE_TYPE" chn="服务类型" rmk="" />
+		</field>
+		<field key="frameprotocol">
+			<ITEM key="99Z0149" eng="FRAMED_PROTOCOL" chn="配置协议" rmk="" />
+		</field>
+		<field key="frameipaddress">
+			<ITEM key="99Z0150" eng="FRAMED_IP_ADDR" chn="接入地址" rmk="" />
+		</field>
+		<field key="frameipnetmask">
+			<ITEM key="99Z0151" eng="FRAMED_IP_NETMASK" chn="接入地址掩码" rmk="" />
+		</field>
+		<field key="framerouting">
+			<ITEM key="13AZ347" eng="frameRouting" chn="帧路由方法" rmk="" />
+		</field>
+		<field key="filterid">
+			<ITEM key="99Z0152" eng="FILTER_ID" chn="筛选器编号" rmk="" />
+		</field>
+		<field key="framedmtu">
+			<ITEM key="99Z0153" eng="FRAMED_MTU" chn="为用户配置的最大传输单元" rmk="" />
+		</field>
+		<field key="framedcompression">
+			<ITEM key="99Z0154" eng="FRAMED_COMPRES" chn="连接使用压缩协议" rmk="" />
+		</field>
+		<field key="loginiphost">
+			<ITEM key="13AZ348" eng="loginIPHost" chn="登陆IP地址" rmk="" />
+		</field>
+		<field key="loginservice">
+			<ITEM key="99Z0155" eng="LOGIN_SERVICE" chn="登录服务" rmk="" />
+		</field>
+		<field key="logintcpport">
+			<ITEM key="99Z0156" eng="LOGIN_TCP_PORT" chn="登录端口" rmk="" />
+		</field>
+		<field key="callbacknumber">
+			<ITEM key="99Z0158" eng="CALLBACK_NUM" chn="回叫号码" rmk="" />
+		</field>
+		<field key="callbackid">
+			<ITEM key="99Z0159" eng="CALLBACK_ID" chn="回叫ID" rmk="" />
+		</field>
+		<field key="nasportid">
+			<ITEM key="99Z0205" eng="NAS_PORT_ID" chn="网络接入服务器端口标识" rmk="" />
+		</field>
+		<field key="nasid">
+			<ITEM key="99Z0170" eng="NAS_IDENTIFIER" chn="网络接入服务器标识" rmk="" />
+		</field>
+		<field key="nasporttype">
+			<ITEM key="99Z0189" eng="NAS_PORT_TYPE" chn="NAS端口类型" rmk="" />
+		</field>
+		<field key="framedroute">
+			<ITEM key="99Z0160" eng="FRAMED_ROUTE" chn="路由配置" rmk="" />
+		</field>
+		<field key="sessiontimeout">
+			<ITEM key="99Z0165" eng="SESSION_TIMEOUT" chn="会话最大时长" rmk="" />
+		</field>
+		<field key="idletimeout">
+			<ITEM key="99Z0166" eng="IDLE_TIMEOUT" chn="空闲在线的最大时长" rmk="" />
+		</field>
+		<field key="terminationaction">
+			<ITEM key="99Z0167" eng="TERMINATION_ACTION" chn="终止动作" rmk="" />
+		</field>
+		<field key="calledstationid">
+			<ITEM key="99Z0168" eng="CALLED_STATION_ID" chn="被叫站点标识" rmk="" />
+		</field>
+		<field key="callingstationid">
+			<ITEM key="99Z0169" eng="CALLING_STATION_ID" chn="主叫站点标识" rmk="" />
+		</field>
+		<field key="loginlatservice">
+			<ITEM key="99Z0172" eng="LOGIN_LAT_SERVICE" chn="登录LAT服务" rmk="" />
+		</field>
+		<field key="loginlatnode">
+			<ITEM key="99Z0173" eng="LOGIN_LAT_NODE" chn="登录LAT节点" rmk="" />
+		</field>
+		<field key="loginlatgroup">
+			<ITEM key="99Z0174" eng="LOGIN_LAT_GROUP" chn="登录LAT组" rmk="" />
+		</field>
+		<field key="accountinginputocters">
+			<ITEM key="08A0045" eng="INPUT_BYTES" chn="输入字节数" rmk="" />
+		</field>
+		<field key="accountingoutputoctes">
+			<ITEM key="08A0046" eng="OUTPUT_BYTES" chn="输出字节数" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="KERBEROS" dataset="JZ_SOURCE_9084">
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="messageType" chn="消息类型" rmk="" />
+		</field>
+		<field key="hostaddrtype">
+			<ITEM key="06B0002" eng="IP_TYPE" chn="IP地址类型" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="OCSP" dataset="JZ_SOURCE_9101">
+		<field key="acceptableresponse">
+			<ITEM key="13AZ562" eng="客户端能够接受的响应类型" chn="AcceptableResponse" rmk="" />
+		</field>
+		<field key="certs">
+			<ITEM key="13AZ563" eng="证书状态" chn="certs" rmk="" />
+		</field>
+		<field key="crlnum">
+			<ITEM key="13AZ564" eng="客户端请求消息中证书撤销列表序列号" chn="crlNum" rmk="" />
+		</field>
+		<field key="crltime">
+			<ITEM key="13AZ565" eng="客户端请求消息中证书撤销列表生成时间" chn="crlTime" rmk="" />
+		</field>
+		<field key="crlurl">
+			<ITEM key="13AZ566" eng="客户端请求消息中证书撤销列表URL" chn="crlUrl" rmk="" />
+		</field>
+		<field key="hashalgorithm_element(5)">
+			<ITEM key="13AZ567" eng="服务端响应消息中Hash算法标识" chn="hashAlgorithm_element(5)" rmk="" />
+		</field>
+		<field key="issuerkeyhash(5)">
+			<ITEM key="13AZ568" eng="服务端响应消息中颁发者公钥Hash" chn="issuerKeyHash(5)" rmk="" />
+		</field>
+		<field key="issuernamehash(5)">
+			<ITEM key="13AZ569" eng="服务端响应消息中颁发者名的Hash值" chn="issuerNameHash(5)" rmk="" />
+		</field>
+		<field key="nextupdate">
+			<ITEM key="18A0167" eng="下次更新时间" chn="nextUpdate" rmk="" />
+		</field>
+		<field key="requestorname">
+			<ITEM key="13AZ570" eng="客户端请求消息中颁发者名的Hash值" chn="requestorname" rmk="" />
+		</field>
+		<field key="responderid">
+			<ITEM key="13AZ571" eng="响应消息类型标识" chn="responderID" rmk="" />
+		</field>
+		<field key="responsestatus">
+			<ITEM key="13AZ572" eng="响应状态" chn="responseStatus" rmk="" />
+		</field>
+		<field key="responsetypeid">
+			<ITEM key="13AZ573" eng="响应者类型标识" chn="ResponseTypeID" rmk="" />
+		</field>
+		<field key="revocationreason">
+			<ITEM key="13AZ574" eng="证书撤销原因" chn="revocationReason" rmk="" />
+		</field>
+		<field key="revocationtime">
+			<ITEM key="08Q9004" eng="证书撤销时间" chn="revocationTime" rmk="" />
+		</field>
+		<field key="revoked_element">
+			<ITEM key="13AZ575" eng="证书中断时间" chn="revoked_element" rmk="" />
+		</field>
+		<field key="serialnumber(5)">
+			<ITEM key="13AZ576" eng="服务端响应消息中证书序列号" chn="serialNumber(5)" rmk="" />
+		</field>
+		<field key="servicelocator">
+			<ITEM key="13AZ577" eng="服务定位器" chn="ServiceLocator" rmk="" />
+		</field>
+		<field key="signature">
+			<ITEM key="13AZ578" eng="响应数据的签名值" chn="signature" rmk="" />
+		</field>
+		<field key="signaturealgorithm_element">
+			<ITEM key="13AZ579" eng="客户端请求消息中Hash算法标识" chn="signatureAlgorithm_element" rmk="" />
+		</field>
+		<field key="singlerequestextensions">
+			<ITEM key="13AZ580" eng="客户端请求消息中的扩展标识" chn="singleRequestExtensions" rmk="" />
+		</field>
+		<field key="thisupdate">
+			<ITEM key="18A1428" eng="此次更新时间" chn="thisUpdate" rmk="" />
+		</field>
+		<field key="version">
+			<ITEM key="13AZ318" eng="服务端协议版本" chn="version" rmk="" />
+		</field>
+		<field key="x509_algorithmid">
+			<ITEM key="13AZ361" eng="证书算法" chn="X509_algorithmID" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="ISAKMP" dataset="JZ_SOURCE_9085">
+		<field key="initiatorcookie">
+			<ITEM key="13AZ349" eng="initiatorCookie" chn="初始COOKIE" rmk="" />
+		</field>
+		<field key="respondercookie">
+			<ITEM key="13AZ350" eng="ResponderCookie" chn="响应COOKIE" rmk="" />
+		</field>
+		<field key="initiatorversion">
+			<ITEM key="13AZ351" eng="initiatorVersion" chn="发方版本" rmk="" />
+		</field>
+		<field key="responderversion">
+			<ITEM key="13AZ352" eng="responderVersion" chn="收方版本" rmk="" />
+		</field>
+		<field key="exchangetype">
+			<ITEM key="13AZ353" eng="exchangeType" chn="交换类型" rmk="" />
+		</field>
+		<field key="messageid">
+			<ITEM key="13AZ354" eng="messageID" chn="报文ID" rmk="" />
+		</field>
+		<field key="domainofinterpretation">
+			<ITEM key="13AZ355" eng="domainOfInterpretation" chn="解释域" rmk="" />
+		</field>
+		<field key="situation">
+			<ITEM key="13AZ356" eng="situation" chn="环境" rmk="" />
+		</field>
+		<field key="proposalnumber">
+			<ITEM key="13AZ357" eng="proposalNumber" chn="建议号" rmk="" />
+		</field>
+		<field key="ptotocalid">
+			<ITEM key="13AZ358" eng="protocolID" chn="协议ID" rmk="" />
+		</field>
+		<field key="proposaltransform">
+			<ITEM key="13AZ359" eng="proposalTransform" chn="建议变换号" rmk="" />
+		</field>
+		<field key="transformid">
+			<ITEM key="13AZ360" eng="transformID" chn="变换ID" rmk="" />
+		</field>
+		<field key="encryptionalgorithm">
+			<ITEM key="13AZ361" eng="encryptionAlgorithm" chn="加密算法" rmk="" />
+		</field>
+		<field key="lifetype">
+			<ITEM key="13AZ362" eng="lifeType" chn="生存类型" rmk="" />
+		</field>
+		<field key="timetolive">
+			<ITEM key="SS00115" eng="lifeDuration" chn="生存时间" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="SNMP" dataset="JZ_SOURCE_9086">
+		<field key="community">
+			<ITEM key="08G0005" eng="VERSION" chn="SNMP版本号" rmk="" />
+		</field>
+		<field key="enterprise">
+			<ITEM key="13AZ363" eng="community" chn="团体名" rmk="" />
+		</field>
+		<field key="objectidentifer">
+			<ITEM key="13AZ364" eng="protocolDataUnitType" chn="协议数据单元类型" rmk="" />
+		</field>
+		<field key="objectvalue">
+			<ITEM key="13AZ365" eng="requestID" chn="请求标识符" rmk="" />
+		</field>
+		<field key="protocoldataunittype">
+			<ITEM key="13AZ366" eng="enterprise" chn="设备的对象标识符" rmk="" />
+		</field>
+		<field key="requestid">
+			<ITEM key="13AZ367" eng="objectIdentifer" chn="对象标识符" rmk="" />
+		</field>
+		<field key="version">
+			<ITEM key="13AZ368" eng="objectValue" chn="对象值" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="RIP" dataset="JZ_RESOURCE_9087">
+		<field key="version">
+			<ITEM key="08G0005" eng="VERSION" chn="RIP的版本号版本号" rmk="" />
+		</field>
+		<field key="destination_address">
+			<ITEM key="SS00047" eng="ripIPAddress" chn="目的地址" rmk="" />
+		</field>
+		<field key="ripsubnetmask">
+			<ITEM key="13AZ369" eng="ripSubnetMask" chn="子网掩码" rmk="" />
+		</field>
+		<field key="nexthop">
+			<ITEM key="13AZ370" eng="ripNextHop" chn="下一跳" rmk="" />
+		</field>
+		<field key="metric">
+			<ITEM key="13AZ371" eng="ripMetric" chn="度量" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="OSPF" dataset="JZ_SOURCE_9088">
+		<field key="version">
+			<ITEM key="08G0005" eng="Version" chn="指定OSPF版本号" rmk="" />
+		</field>
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="messageType" chn="消息类型" rmk="" />
+		</field>
+		<field key="routeid">
+			<ITEM key="13AZ372" eng="routeID" chn="路由器ID" rmk="" />
+		</field>
+		<field key="areaid">
+			<ITEM key="13AZ373" eng="areaID" chn="区域ID" rmk="" />
+		</field>
+		<field key="authenticationtype">
+			<ITEM key="13AZ374" eng="authenticationType" chn="认证类型" rmk="" />
+		</field>
+		<field key="authenticationdata">
+			<ITEM key="13AZ375" eng="authenticationData" chn="认证数据" rmk="" />
+		</field>
+		<field key="keyid">
+			<ITEM key="13AZ376" eng="keyID" chn="密钥ID" rmk="" />
+		</field>
+		<field key="cryptographicsequencenumber">
+			<ITEM key="13AZ377" eng="cryptographicSequenceNumber" chn="加密序列号" rmk="" />
+		</field>
+		<field key="hellointerval">
+			<ITEM key="13AZ378" eng="helloInterval" chn="Hello时间间隔" rmk="" />
+		</field>
+		<field key="routerpriority">
+			<ITEM key="13AZ379" eng="routerPriority" chn="路由优先级" rmk="" />
+		</field>
+		<field key="deadinterval">
+			<ITEM key="13AZ380" eng="deadInterval" chn="路由器无效时间间隔" rmk="" />
+		</field>
+		<field key="designedrouter">
+			<ITEM key="13AZ381" eng="designedRouter" chn="指定路由器" rmk="" />
+		</field>
+		<field key="backupdesignedrouter">
+			<ITEM key="13AZ382" eng="backupDesignedRouter" chn="备份指定路由器" rmk="" />
+		</field>
+		<field key="neighbor">
+			<ITEM key="13AZ383" eng="neighbor" chn="邻居" rmk="" />
+		</field>
+		<field key="databasesequencenumber">
+			<ITEM key="13AZ384" eng="databaseSequenceNumber" chn="数据库描述序列号" rmk="" />
+		</field>
+		<field key="linkstatetype">
+			<ITEM key="13AZ385" eng="linkStateType" chn="链路状态类型" rmk="" />
+		</field>
+		<field key="linkstateid">
+			<ITEM key="13AZ386" eng="linkStateID" chn="链路状态ID" rmk="" />
+		</field>
+		<field key="advertisingrouter">
+			<ITEM key="13AZ387" eng="advertisingRouter" chn="通告路由器" rmk="" />
+		</field>
+		<field key="lsasequencenumber">
+			<ITEM key="13AZ388" eng="LSASequenceNumber" chn="LSA序列号" rmk="" />
+		</field>
+		<field key="virtuallinkendpointbit">
+			<ITEM key="13AZ389" eng="virtualLinkEndpointBit" chn="虚链路端点标识" rmk="" />
+		</field>
+		<field key="externalbit">
+			<ITEM key="13AZ390" eng="externalBit" chn="外部标识位" rmk="" />
+		</field>
+		<field key="borderbit">
+			<ITEM key="13AZ391" eng="borderBit" chn="边界标识位" rmk="" />
+		</field>
+		<field key="metric">
+			<ITEM key="13AZ371" eng="metric" chn="度量" rmk="" />
+		</field>
+		<field key="forwardingaddress">
+			<ITEM key="13AZ392" eng="forwardingAddress" chn="转发地址" rmk="" />
+		</field>
+		<field key="externalroutertag">
+			<ITEM key="13AZ393" eng="externalRouterTag" chn="外部路由标志" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="BGP" dataset="JZ_SOURCE_9089">
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="bgpMessageType" chn="消息类型" rmk="" />
+		</field>
+		<field key="version">
+			<ITEM key="08G0005" eng="bgpVersion" chn="发端BGP版本号" rmk="" />
+		</field>
+		<field key="bgpidentifier">
+			<ITEM key="13AZ394" eng="bgpIdentifier" chn="BGP标识" rmk="" />
+		</field>
+		<field key="bgpauthenticationcode">
+			<ITEM key="13AZ395" eng="bgpAuthenticationCode" chn="认证码" rmk="" />
+		</field>
+		<field key="bgporigin">
+			<ITEM key="13AZ396" eng="bgpOrigin" chn="前缀起源" rmk="" />
+		</field>
+		<field key="bgpautonomoussystempath">
+			<ITEM key="13AZ397" eng="bgpAutonomousSystemPath" chn="AS路径" rmk="" />
+		</field>
+		<field key="nexthop">
+			<ITEM key="13AZ370" eng="bgpNextHop" chn="下一跳" rmk="" />
+		</field>
+		<field key="bgpmultiexitdisc">
+			<ITEM key="13AZ398" eng="bgpMultiExitDisc" chn="多重出口区分" rmk="" />
+		</field>
+		<field key="bgplocalpref">
+			<ITEM key="13AZ399" eng="bgpLocalPref" chn="本地优先权" rmk="" />
+		</field>
+		<field key="community">
+			<ITEM key="13AZ363" eng="bgpCommunities" chn="团体名" rmk="" />
+		</field>
+		<field key="bgpaggregatoras">
+			<ITEM key="13AZ400" eng="bgpAggregatorAS" chn="聚合路由器自主系统号" rmk="" />
+		</field>
+		<field key="bgpaggregatoraddress">
+			<ITEM key="13AZ401" eng="bgpAggregatorAddress" chn="聚合路由器IP地址" rmk="" />
+		</field>
+		<field key="bgporiginatorid">
+			<ITEM key="13AZ402" eng="bgpOriginatorID" chn="始发路由器ID" rmk="" />
+		</field>
+		<field key="bgpclusterid">
+			<ITEM key="13AZ403" eng="bgpClusterID" chn="簇列表" rmk="" />
+		</field>
+		<field key="bgpnetworklayerreachabilityinformationprefix">
+			<ITEM key="13AZ404" eng="bgpNLRIPre" chn="网络层可达路由前缀" rmk="" />
+		</field>
+		<field key="bgpnetworklayerreachabilityinformationmask">
+			<ITEM key="13AZ405" eng="bgpNLRIMas" chn="网络层可达路由掩码" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="DHCP" dataset="JZ_SOURCE_9090">
+		<field key="code">
+			<ITEM key="13AZ344" eng="code" chn="命令代码" rmk="" />
+		</field>
+		<field key="hardwaretype">
+			<ITEM key="13AZ406" eng="hardwareType" chn="硬件类型" rmk="" />
+		</field>
+		<field key="currentaddress">
+			<ITEM key="13AZ407" eng="currentAddress" chn="当前客户端地址" rmk="" />
+		</field>
+		<field key="newclientaddress">
+			<ITEM key="13AZ408" eng="newClientAddress" chn="新客户端地址" rmk="" />
+		</field>
+		<field key="serviceaddress">
+			<ITEM key="13AZ409" eng="serviceAddress" chn="服务器IP地址" rmk="" />
+		</field>
+		<field key="relayaddress">
+			<ITEM key="13AZ410" eng="relayAddress" chn="中继代理地址" rmk="" />
+		</field>
+		<field key="clientmacaddress">
+			<ITEM key="13AZ411" eng="clientMacAddress" chn="客户端硬件地址" rmk="" />
+		</field>
+		<field key="servicehostname">
+			<ITEM key="13AZ412" eng="serviceHostName" chn="服务器主机名" rmk="" />
+		</field>
+		<field key="bootfilename">
+			<ITEM key="13AZ413" eng="bootFilename" chn="引导文件名" rmk="" />
+		</field>
+		<field key="optiontype">
+			<ITEM key="13AZ414" eng="optionType" chn="选项类型" rmk="" />
+		</field>
+		<field key="optionvalue">
+			<ITEM key="13AZ415" eng="optionValue" chn="选项值" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="EIGRP" dataset="JZ_SOURCE_9091">
+		<field key="eigver">
+			<ITEM key="08G0005" eng="eigrpversion" chn="发起EIGRP进程的具体版本" rmk="" />
+		</field>
+		<field key="eigrpopcode">
+			<ITEM key="13AZ344" eng="eigrpOpcode" chn="操作码" rmk="" />
+		</field>
+		<field key="eigrpautonomoussystemnumber">
+			<ITEM key="13AZ400" eng="eigASNum" chn="自主系统号" rmk="" />
+		</field>
+		<field key="eigrproutetype">
+			<ITEM key="13AZ416" eng="eigrpRouteType" chn="路由类型" rmk="" />
+		</field>
+		<field key="eignexhop">
+			<ITEM key="13AZ370" eng="eigrpNextHop" chn="下一跳" rmk="" />
+		</field>
+		<field key="eigrpdelay">
+			<ITEM key="13AZ417" eng="eigrpDelay" chn="延迟" rmk="" />
+		</field>
+		<field key="bandwidth">
+			<ITEM key="13AZ418" eng="eigrpBandwidth" chn="带宽" rmk="" />
+		</field>
+		<field key="eigrphopcount">
+			<ITEM key="13AZ419" eng="eigrpHopCount" chn="跳数" rmk="" />
+		</field>
+		<field key="eigrpreliability">
+			<ITEM key="13AZ420" eng="eigrpReliability" chn="可靠性" rmk="" />
+		</field>
+		<field key="eigrpload">
+			<ITEM key="13AZ421" eng="eigrpLoad" chn="负载" rmk="" />
+		</field>
+		<field key="eigrpperfixlength">
+			<ITEM key="13AZ422" eng="eigrpPerfixLength" chn="掩码位数" rmk="" />
+		</field>
+		<field key="destination_address">
+			<ITEM key="SS00047" eng="eigrpDestination" chn="目的地址" rmk="" />
+		</field>
+		<field key="eigrporiginatingautonomoussystemnumber">
+			<ITEM key="13AZ423" eng="eigASNum" chn="原自主系统号" rmk="" />
+		</field>
+		<field key="eigrpexternalprotocolid">
+			<ITEM key="13AZ424" eng="eigExtProID" chn="外部协议ID" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="SSH" dataset="JZ_SOURCE_9092">
+		<field key="clientversion">
+			<ITEM key="13AZ313" eng="clientVersion" chn="客户端协议版本" rmk="" />
+		</field>
+		<field key="clientkeyexchangealgorithm">
+			<ITEM key="13AZ425" eng="clientKeyExchangeAlgorithm" chn="客户端密钥交换算法" rmk="" />
+		</field>
+		<field key="clienthostkeyalgorithm">
+			<ITEM key="13AZ426" eng="clientHostKeyAlgorithm" chn="客户端主机密钥算法" rmk="" />
+		</field>
+		<field key="clientencryptionalgorithm">
+			<ITEM key="13AZ427" eng="clientEncryptionAlgorithm" chn="客户端数据加密算法" rmk="" />
+		</field>
+		<field key="clientmacalgorithm">
+			<ITEM key="13AZ428" eng="clientMACAlgorithm" chn="客户端数据校验算法" rmk="" />
+		</field>
+		<field key="clientcompressionalgorithm">
+			<ITEM key="13AZ317" eng="clientCompressionAlgorithm" chn="客户端数据压缩算法" rmk="" />
+		</field>
+		<field key="serverversion">
+			<ITEM key="13AZ318" eng="serverVersion" chn="服务器协议版本" rmk="" />
+		</field>
+		<field key="servercookie">
+			<ITEM key="13AZ429" eng="serverCookie" chn="服务器Cookie" rmk="" />
+		</field>
+		<field key="serverkeyexchangealgorithm">
+			<ITEM key="13AZ430" eng="serverKeyExchangeAlgorithm" chn="服务器密钥交换算法" rmk="" />
+		</field>
+		<field key="serverhostkeyalgorithm">
+			<ITEM key="13AZ431" eng="serverHostKeyAlgorithm" chn="服务器主机密钥算法" rmk="" />
+		</field>
+		<field key="serverencryptionalgorithm">
+			<ITEM key="13AZ432" eng="serverEncryptionAlgorithm" chn="服务器数据加密算法" rmk="" />
+		</field>
+		<field key="servermacalgorithm">
+			<ITEM key="13AZ433" eng="serverMACAlgorithm" chn="服务器数据校验算法" rmk="" />
+		</field>
+		<field key="servercompressionalgorithm">
+			<ITEM key="13AZ322" eng="serverCompressionAlgorithm" chn="服务器数据压缩算法" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="RDP" dataset="JZ_SOURCE_9102">
+		<field key="channelcount">
+			<ITEM key="13AZ510" eng="通道数量" chn="channelcount" rmk="" />
+		</field>
+		<field key="clientbuild">
+			<ITEM key="13AZ581" eng="客户端构建" chn="clientbuild" rmk="" />
+		</field>
+		<field key="clientname">
+			<ITEM key="13AZ495" eng="客户端名称" chn="ClientName" rmk="" />
+		</field>
+		<field key="cluster_flags">
+			<ITEM key="13AZ582" eng="群标志" chn="cluster_flags" rmk="" />
+		</field>
+		<field key="colordepth">
+			<ITEM key="09AZ018" eng="色彩深度" chn="colordepth" rmk="" />
+		</field>
+		<field key="desktopheight">
+			<ITEM key="13AZ583" eng="桌面高度" chn="desktopheight" rmk="" />
+		</field>
+		<field key="desktopwidth">
+			<ITEM key="13AZ584" eng="桌面宽度" chn="desktopwidth" rmk="" />
+		</field>
+		<field key="encryptionlevel">
+			<ITEM key="13AZ585" eng="加密等级" chn="encryptionlevel" rmk="" />
+		</field>
+		<field key="encryptionmethods">
+			<ITEM key="03N0007" eng="加密方法" chn="encryptionmethods" rmk="" />
+		</field>
+		<field key="extencryptionmethods">
+			<ITEM key="13AZ586" eng="加密方法扩展" chn="extencryptionmethods" rmk="" />
+		</field>
+		<field key="imefilename">
+			<ITEM key="08AZ014" eng="文件名" chn="imefilename" rmk="" />
+		</field>
+		<field key="keyboardfunctionkey">
+			<ITEM key="13AZ587" eng="键盘功能键" chn="keyboardfunctionkey" rmk="" />
+		</field>
+		<field key="keyboardlayout">
+			<ITEM key="13AZ588" eng="键盘布局" chn="keyboardlayout" rmk="" />
+		</field>
+		<field key="keyboardsubtype">
+			<ITEM key="13AZ589" eng="副键盘类型" chn="keyboardsubtype" rmk="" />
+		</field>
+		<field key="keyboardtype">
+			<ITEM key="13AZ590" eng="键盘类型" chn="keyboardtype" rmk="" />
+		</field>
+		<field key="mcschannelid">
+			<ITEM key="13AZ591" eng="mcs通道ID" chn="mcschannelid" rmk="" />
+		</field>
+		<field key="monitorattributesize">
+			<ITEM key="13AZ592" eng="显示器属性数" chn="monitorattributesize" rmk="" />
+		</field>
+		<field key="monitorcount">
+			<ITEM key="13AZ593" eng="显示器数量" chn="monitorcount" rmk="" />
+		</field>
+		<field key="monitorexflags">
+			<ITEM key="13AZ580" eng="显示器扩展标识" chn="monitorexflags" rmk="" />
+		</field>
+		<field key="msgchannelflags">
+			<ITEM key="13AZ594" eng="消息通道标志" chn="msgchannelflags" rmk="" />
+		</field>
+		<field key="msgchannelid">
+			<ITEM key="13AZ595" eng="消息通道ID" chn="msgchannelid" rmk="" />
+		</field>
+		<field key="multitransportflags">
+			<ITEM key="13AZ596" eng="多通道传输标志" chn="multitransportflags" rmk="" />
+		</field>
+		<field key="pad">
+			<ITEM key="13AZ597" eng="附加" chn="pad" rmk="" />
+		</field>
+		<field key="redirectedsessionid">
+			<ITEM key="08A0013" eng="重定向会话ID" chn="redirectedsessionid" rmk="" />
+		</field>
+		<field key="sequencenumber">
+			<ITEM key="99Z0401" eng="序列号" chn="sequenceNumber" rmk="" />
+		</field>
+		<field key="servercertificate">
+			<ITEM key="13AZ598" eng="服务器证书" chn="servercertificate" rmk="" />
+		</field>
+		<field key="servercertlen">
+			<ITEM key="13AZ599" eng="服务器证书长度" chn="servercertlen" rmk="" />
+		</field>
+		<field key="serverrandomlen">
+			<ITEM key="13AZ600" eng="服务器随机长度" chn="serverrandomlen" rmk="" />
+		</field>
+		<field key="versionmajor">
+			<ITEM key="SS00021" eng="主版本号" chn="versionmajor" rmk="" />
+		</field>
+		<field key="versionminor">
+			<ITEM key="SS00022" eng="副版本号" chn="versionminor" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="DCERPC" dataset="JZ_SOURCE_9093">
+		<field key="packettype">
+			<ITEM key="13AZ434" eng="packetType" chn="包类型" rmk="" />
+		</field>
+		<field key="authenticationtype">
+			<ITEM key="13AZ374" eng="authenticationType" chn="认证类型" rmk="" />
+		</field>
+		<field key="authenticationdata">
+			<ITEM key="13AZ375" eng="authenticationData" chn="认证数据" rmk="" />
+		</field>
+		<field key="serviceuuid">
+			<ITEM key="13AZ435" eng="serviceUuid" chn="服务UUID" rmk="" />
+		</field>
+		<field key="versionmaster">
+			<ITEM key="13AZ436" eng="VersionMaster" chn="服务版主本号" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="VNC" dataset="JZ_SOURCE_9103">
+		<field key="authenresult">
+			<ITEM key="13AZ601" eng="认证结果" chn="AuthenResult" rmk="" />
+		</field>
+		<field key="bigendianflag">
+			<ITEM key="13AZ602" eng="大端标志" chn="BigEndianFlag" rmk="" />
+		</field>
+		<field key="bitperpixel">
+			<ITEM key="13AZ603" eng="每像素位数" chn="BitPerPixel" rmk="" />
+		</field>
+		<field key="bluemax">
+			<ITEM key="13AZ604" eng="蓝色最大值" chn="BlueMax" rmk="" />
+		</field>
+		<field key="blueshift">
+			<ITEM key="13AZ605" eng="蓝色偏移" chn="BlueShift" rmk="" />
+		</field>
+		<field key="clientresponse">
+			<ITEM key="13AZ606" eng="客户端响应" chn="ClientResponse" rmk="" />
+		</field>
+		<field key="clientversion">
+			<ITEM key="13AZ313" eng="客户端版本" chn="clientVersion" rmk="" />
+		</field>
+		<field key="colordata">
+			<ITEM key="03A0004" eng="颜色数据" chn="ColorData" rmk="" />
+		</field>
+		<field key="cuttextlength">
+			<ITEM key="13AZ607" eng="截断文本长度" chn="CutTextLength" rmk="" />
+		</field>
+		<field key="depth">
+			<ITEM key="09AZ018" eng="深度" chn="Depth" rmk="" />
+		</field>
+		<field key="desktopname">
+			<ITEM key="13AZ608" eng="桌面名称" chn="DesktopName" rmk="" />
+		</field>
+		<field key="desktopnamelen">
+			<ITEM key="13AZ609" eng="桌面名称长度" chn="DesktopNameLen" rmk="" />
+		</field>
+		<field key="encodingtypedata">
+			<ITEM key="13AZ610" eng="编码类型" chn="EncodingTypeData" rmk="" />
+		</field>
+		<field key="firstcolor">
+			<ITEM key="13AZ611" eng="首要颜色" chn="FirstColor" rmk="" />
+		</field>
+		<field key="framebufheight">
+			<ITEM key="13AZ612" eng="缓冲高度" chn="FrameBufHeight" rmk="" />
+		</field>
+		<field key="framebufwidth">
+			<ITEM key="13AZ613" eng="缓冲宽度" chn="FrameBufWidth" rmk="" />
+		</field>
+		<field key="greenmax">
+			<ITEM key="13AZ614" eng="绿色最大值" chn="GreenMax" rmk="" />
+		</field>
+		<field key="greenshift">
+			<ITEM key="13AZ615" eng="绿色偏移" chn="GreenShift" rmk="" />
+		</field>
+		<field key="height">
+			<ITEM key="13AZ583" eng="高度" chn="Height" rmk="" />
+		</field>
+		<field key="incrementalupdate">
+			<ITEM key="13AZ616" eng="递增更新" chn="IncrementalUpdate" rmk="" />
+		</field>
+		<field key="keyvalue">
+			<ITEM key="13AZ617" eng="键盘值" chn="KeyValue" rmk="" />
+		</field>
+		<field key="kyeventdownflag">
+			<ITEM key="13AZ618" eng="键盘事件更新" chn="KyEventDownFlag" rmk="" />
+		</field>
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="消息类型" chn="MessageType" rmk="" />
+		</field>
+		<field key="numofcolor">
+			<ITEM key="13AZ619" eng="颜色数量" chn="NumofColor" rmk="" />
+		</field>
+		<field key="numofencoding">
+			<ITEM key="13AZ620" eng="编码数" chn="NumofEncoding" rmk="" />
+		</field>
+		<field key="numofrect">
+			<ITEM key="13AZ621" eng="矩形数量" chn="NumofRect" rmk="" />
+		</field>
+		<field key="pixelinformation">
+			<ITEM key="13AZ622" eng="像素信息" chn="PixelInformation" rmk="" />
+		</field>
+		<field key="pteventmousebutton">
+			<ITEM key="13AZ623" eng="鼠标点击事件" chn="PtEventMouseButton" rmk="" />
+		</field>
+		<field key="ptxposition">
+			<ITEM key="13AZ624" eng="鼠标点击X坐标" chn="PtXPosition" rmk="" />
+		</field>
+		<field key="ptyposition">
+			<ITEM key="13AZ625" eng="鼠标点击Y坐标" chn="PtYPosition" rmk="" />
+		</field>
+		<field key="rectangledata">
+			<ITEM key="13AZ626" eng="矩形数据" chn="RectangleData" rmk="" />
+		</field>
+		<field key="redmax">
+			<ITEM key="13AZ627" eng="红色最大值" chn="RedMax" rmk="" />
+		</field>
+		<field key="redshift">
+			<ITEM key="13AZ628" eng="红色偏移" chn="RedShift" rmk="" />
+		</field>
+		<field key="securitytype">
+			<ITEM key="13AZ629" eng="安全类型" chn="SecurityType" rmk="" />
+		</field>
+		<field key="serverchanllege">
+			<ITEM key="13AZ630" eng="服务器请求" chn="ServerChanllege" rmk="" />
+		</field>
+		<field key="serversion">
+			<ITEM key="13AZ631" eng="服务器版本" chn="SerVersion" rmk="" />
+		</field>
+		<field key="sharedesktopflag">
+			<ITEM key="13AZ632" eng="共享桌面标志" chn="ShareDesktopFlag" rmk="" />
+		</field>
+		<field key="textcontent">
+			<ITEM key="08D0001" eng="文本内容" chn="TextContent" rmk="" />
+		</field>
+		<field key="truecolorflag">
+			<ITEM key="13AZ633" eng="真实颜色标志" chn="TrueColorFlag" rmk="" />
+		</field>
+		<field key="width">
+			<ITEM key="13AZ634" eng="宽度" chn="Width" rmk="" />
+		</field>
+		<field key="xposition">
+			<ITEM key="13AZ635" eng="X坐标" chn="XPosition" rmk="" />
+		</field>
+		<field key="yposition">
+			<ITEM key="13AZ636" eng="Y坐标" chn="YPosition" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="SIP" dataset="JZ_SOURCE_9104">
+		<field key="accept">
+			<ITEM key="13AZ637" eng="能够接收的媒体的类型" chn="Accept" rmk="" />
+		</field>
+		<field key="accept_encoding">
+			<ITEM key="13AZ638" eng="能够接受的编码类型" chn="Accept_Encoding" rmk="" />
+		</field>
+		<field key="accept_language">
+			<ITEM key="13AZ639" eng="能够接受的语言种类" chn="Accept_Language" rmk="" />
+		</field>
+		<field key="allow">
+			<ITEM key="13AZ640" eng="allow" chn="Allow" rmk="" />
+		</field>
+		<field key="allow_events">
+			<ITEM key="13AZ641" eng="允许通话过程的事件" chn="allow_events" rmk="" />
+		</field>
+		<field key="attributedesc">
+			<ITEM key="13AZ642" eng="属性描述" chn="AttributeDesc" rmk="" />
+		</field>
+		<field key="authorization">
+			<ITEM key="13AZ643" eng="SIP认证信息" chn="Authorization" rmk="" />
+		</field>
+		<field key="call_id">
+			<ITEM key="13AZ644" eng="call_id" chn="Call_ID" rmk="" />
+		</field>
+		<field key="call_info">
+			<ITEM key="13AZ004" eng="呼叫信息" chn="Call_Info" rmk="" />
+		</field>
+		<field key="call_tagged">
+			<ITEM key="03E0002" eng="主叫被标记" chn="call_tagged" rmk="" />
+		</field>
+		<field key="callednumber">
+			<ITEM key="13AZ125" eng="被叫号码" chn="calledNumber" rmk="" />
+		</field>
+		<field key="callingnumber">
+			<ITEM key="13AZ115" eng="主叫号码" chn="callingNumber" rmk="" />
+		</field>
+		<field key="cisco_guid">
+			<ITEM key="13AZ645" eng="思科组ID" chn="cisco_guid" rmk="" />
+		</field>
+		<field key="connect_address">
+			<ITEM key="13AZ646" eng="连接地址" chn="connect_address" rmk="" />
+		</field>
+		<field key="connect_address_type">
+			<ITEM key="13AZ647" eng="连接地址类型" chn="connect_address_type" rmk="" />
+		</field>
+		<field key="connect_network_type">
+			<ITEM key="13AZ648" eng="网络连接类型" chn="connect_network_type" rmk="" />
+		</field>
+		<field key="connection">
+			<ITEM key="13AZ649" eng="连接" chn="Connection" rmk="" />
+		</field>
+		<field key="contact">
+			<ITEM key="13AZ650" eng="contact" chn="Contact" rmk="" />
+		</field>
+		<field key="contact_country_code">
+			<ITEM key="13AZ651" eng="连接国家代码" chn="contact_country_code" rmk="" />
+		</field>
+		<field key="contact_e164_number">
+			<ITEM key="13AZ652" eng="连接164数据" chn="contact_e164_number" rmk="" />
+		</field>
+		<field key="contact_host_part">
+			<ITEM key="13AZ653" eng="连接主机部分" chn="contact_host_part" rmk="" />
+		</field>
+		<field key="contact_host_port">
+			<ITEM key="13AZ654" eng="连接主机端口" chn="contact_host_port" rmk="" />
+		</field>
+		<field key="contact_param">
+			<ITEM key="13AZ655" eng="连接参数" chn="contact_param" rmk="" />
+		</field>
+		<field key="contact_user_part">
+			<ITEM key="13AZ656" eng="连接用户部分" chn="contact_user_part" rmk="" />
+		</field>
+		<field key="content_disposition">
+			<ITEM key="13AZ657" eng="消息内容描述" chn="content_disposition" rmk="" />
+		</field>
+		<field key="content_encoding">
+			<ITEM key="13AZ658" eng="消息的内容编码格式" chn="Content_Encoding" rmk="" />
+		</field>
+		<field key="content_length">
+			<ITEM key="13AZ659" eng="消息的内容长度" chn="content_length" rmk="" />
+		</field>
+		<field key="content_type">
+			<ITEM key="13AZ660" eng="消息的内容类型" chn="Content_Type" rmk="" />
+		</field>
+		<field key="cseq">
+			<ITEM key="13AZ661" eng="cseq" chn="Cseq" rmk="" />
+		</field>
+		<field key="cseq_method">
+			<ITEM key="13AZ662" eng="序列方法" chn="cseq_method" rmk="" />
+		</field>
+		<field key="datetime">
+			<ITEM key="13AZ663" eng="日期" chn="datetime" rmk="" />
+		</field>
+		<field key="event">
+			<ITEM key="13AZ664" eng="SPI事件类型" chn="event" rmk="" />
+		</field>
+		<field key="expires">
+			<ITEM key="03K0005" eng="会话持续时间" chn="expires" rmk="" />
+		</field>
+		<field key="from">
+			<ITEM key="13AZ665" eng="来源信息" chn="From" rmk="" />
+		</field>
+		<field key="from_country_code">
+			<ITEM key="13AZ666" eng="来源国家代码" chn="from_country_code" rmk="" />
+		</field>
+		<field key="from_e164_num">
+			<ITEM key="13AZ667" eng="来源164数据" chn="from_e164_num" rmk="" />
+		</field>
+		<field key="from_host_part">
+			<ITEM key="13AZ668" eng="来源主机部分" chn="from_host_part" rmk="" />
+		</field>
+		<field key="from_host_port">
+			<ITEM key="13AZ669" eng="来源主机端口" chn="from_host_port" rmk="" />
+		</field>
+		<field key="from_tag">
+			<ITEM key="13AZ670" eng="来源标签" chn="from_tag" rmk="" />
+		</field>
+		<field key="from_user_part">
+			<ITEM key="13AZ671" eng="来源用户部分" chn="from_user_part" rmk="" />
+		</field>
+		<field key="max_forwards">
+			<ITEM key="13AZ672" eng="max_forwards" chn="max_forwards" rmk="" />
+		</field>
+		<field key="media_descrip">
+			<ITEM key="13AZ673" eng="媒体描述" chn="media_descrip" rmk="" />
+		</field>
+		<field key="media_format1">
+			<ITEM key="13AZ674" eng="媒体格式1" chn="media_format1" rmk="" />
+		</field>
+		<field key="media_format2">
+			<ITEM key="13AZ675" eng="媒体格式2" chn="media_format2" rmk="" />
+		</field>
+		<field key="media_port">
+			<ITEM key="13AZ676" eng="媒体端口" chn="media_port" rmk="" />
+		</field>
+		<field key="media_protocol">
+			<ITEM key="13AZ677" eng="媒体协议" chn="media_protocol" rmk="" />
+		</field>
+		<field key="mediatype">
+			<ITEM key="03E0006" eng="媒体类型" chn="mediaType" rmk="" />
+		</field>
+		<field key="message_body">
+			<ITEM key="13AZ678" eng="消息体" chn="message_body" rmk="" />
+		</field>
+		<field key="message_header">
+			<ITEM key="13AZ679" eng="消息头" chn="message_header" rmk="" />
+		</field>
+		<field key="min_se">
+			<ITEM key="13AZ680" eng="表示服务器所能接受的最小超时值" chn="min_se" rmk="" />
+		</field>
+		<field key="nat_proxy">
+			<ITEM key="13AZ681" eng="SIP 代理服务器" chn="nat_proxy" rmk="" />
+		</field>
+		<field key="owner_address">
+			<ITEM key="13AZ682" eng="拥有者地址" chn="owner_address" rmk="" />
+		</field>
+		<field key="owner_address_type">
+			<ITEM key="13AZ683" eng="拥有者地址类型" chn="owner_address_type" rmk="" />
+		</field>
+		<field key="owner_name">
+			<ITEM key="13AZ684" eng="拥有者名称" chn="owner_name" rmk="" />
+		</field>
+		<field key="owner_network_type">
+			<ITEM key="13AZ685" eng="拥有者网络类型" chn="owner_network_type" rmk="" />
+		</field>
+		<field key="owner_session">
+			<ITEM key="13AZ686" eng="拥有者会话" chn="owner_session" rmk="" />
+		</field>
+		<field key="owner_session_id">
+			<ITEM key="13AZ687" eng="拥有者会话ID" chn="owner_session_id" rmk="" />
+		</field>
+		<field key="owner_session_version">
+			<ITEM key="13AZ688" eng="拥有者会话版本" chn="owner_session_version" rmk="" />
+		</field>
+		<field key="p_hint">
+			<ITEM key="13AZ689" eng="媒体是否 有hint轨道" chn="p_hint" rmk="" />
+		</field>
+		<field key="p_rtp_stat">
+			<ITEM key="13AZ690" eng="RTP传输状态p" chn="p_rtp_stat" rmk="" />
+		</field>
+		<field key="p_station_name">
+			<ITEM key="13AZ691" eng="站点名字" chn="p_station_name" rmk="" />
+		</field>
+		<field key="proxy_authenticate">
+			<ITEM key="13AZ692" eng="表示客户必须先经过代理服务器的授权" chn="Proxy_Authenticate" rmk="" />
+		</field>
+		<field key="proxy_authorization">
+			<ITEM key="13AZ693" eng="SIP代理认证消息" chn="Proxy_Authorization" rmk="" />
+		</field>
+		<field key="reason">
+			<ITEM key="13AZ694" eng="SIP错误响应原因" chn="reason" rmk="" />
+		</field>
+		<field key="reason_phrase">
+			<ITEM key="13AZ695" eng="status code描述" chn="reason_phrase" rmk="" />
+		</field>
+		<field key="record_route">
+			<ITEM key="13AZ696" eng="记录路由" chn="Record_Route" rmk="" />
+		</field>
+		<field key="remote_party_id">
+			<ITEM key="13AZ697" eng="用来支持来电显示" chn="remote_party_id" rmk="" />
+		</field>
+		<field key="req_uri">
+			<ITEM key="13A0121" eng="URI" chn="req_uri" rmk="" />
+		</field>
+		<field key="require">
+			<ITEM key="13AZ698" eng="要求UAS要有的支持" chn="require" rmk="" />
+		</field>
+		<field key="route">
+			<ITEM key="13AZ699" eng="标识请求路由的下一节点" chn="Route" rmk="" />
+		</field>
+		<field key="sdp_a_attributes0">
+			<ITEM key="13AZ700" eng="需要被额描述的媒体类型" chn="sdp_a_attributes0" rmk="" />
+		</field>
+		<field key="sdp_b_bandwidths">
+			<ITEM key="13AZ418" eng="会话带宽" chn="sdp_b_bandwidths" rmk="" />
+		</field>
+		<field key="sdp_c_addr">
+			<ITEM key="13AZ701" eng="传输流媒体IP" chn="sdp_c_addr" rmk="" />
+		</field>
+		<field key="sdp_c_addrtype">
+			<ITEM key="13AZ702" eng="连接网络类型IPV4 IPV6" chn="sdp_c_addrtype" rmk="" />
+		</field>
+		<field key="sdp_c_connections0">
+			<ITEM key="13AZ703" eng="连接类型" chn="sdp_c_connections0" rmk="" />
+		</field>
+		<field key="sdp_c_connections1">
+			<ITEM key="13AZ704" eng="连接信息" chn="sdp_c_connections1" rmk="" />
+		</field>
+		<field key="sdp_c_nettype">
+			<ITEM key="13AZ705" eng="连接网络类型" chn="sdp_c_nettype" rmk="" />
+		</field>
+		<field key="sdp_i_info">
+			<ITEM key="13AZ706" eng="会话消息类型" chn="sdp_i_info" rmk="" />
+		</field>
+		<field key="sdp_keep_time0">
+			<ITEM key="13AZ707" eng="正向通信时长(秒)" chn="sdp_keep_time0" rmk="" />
+		</field>
+		<field key="sdp_keep_time1">
+			<ITEM key="13AZ708" eng="反向通信时长(秒)" chn="sdp_keep_time1" rmk="" />
+		</field>
+		<field key="sdp_m_media0">
+			<ITEM key="13AZ709" eng="传输媒体类型" chn="sdp_m_media0" rmk="" />
+		</field>
+		<field key="sdp_m_media1">
+			<ITEM key="13AZ710" eng="传输的媒体类型" chn="sdp_m_media1" rmk="" />
+		</field>
+		<field key="sdp_m_payloads0">
+			<ITEM key="13AZ711" eng="媒体承载类型0" chn="sdp_m_payloads0" rmk="" />
+		</field>
+		<field key="sdp_m_payloads1">
+			<ITEM key="13AZ712" eng="媒体承载类型1" chn="sdp_m_payloads1" rmk="" />
+		</field>
+		<field key="sdp_m_port0">
+			<ITEM key="13AZ713" eng="传输端口" chn="sdp_m_port0" rmk="" />
+		</field>
+		<field key="sdp_m_port1">
+			<ITEM key="13AZ714" eng="传输的端口" chn="sdp_m_port1" rmk="" />
+		</field>
+		<field key="sdp_m_proto0">
+			<ITEM key="13AZ715" eng="传输端口" chn="sdp_m_proto0" rmk="" />
+		</field>
+		<field key="sdp_m_proto1">
+			<ITEM key="13AZ716" eng="传输 的协议 TCP UDP" chn="sdp_m_proto1" rmk="" />
+		</field>
+		<field key="sdp_o_addrtype">
+			<ITEM key="13AZ717" eng="origin  IP版本" chn="sdp_o_addrtype" rmk="" />
+		</field>
+		<field key="sdp_o_nettype">
+			<ITEM key="13AZ718" eng="origin 网络类型" chn="sdp_o_nettype" rmk="" />
+		</field>
+		<field key="sdp_o_sess_id">
+			<ITEM key="13AZ719" eng="会话Id和版本" chn="sdp_o_sess_id" rmk="" />
+		</field>
+		<field key="sdp_o_sess_version">
+			<ITEM key="13AZ720" eng="origin 会话版本" chn="sdp_o_sess_version" rmk="" />
+		</field>
+		<field key="sdp_o_username">
+			<ITEM key="13AZ721" eng="origin 用户名" chn="SDP_o_Username" rmk="" />
+		</field>
+		<field key="sdp_s_name">
+			<ITEM key="13AZ722" eng="会话主题" chn="sdp_s_name" rmk="" />
+		</field>
+		<field key="sdp_t_start_time0">
+			<ITEM key="13AZ723" eng="会话起始时间" chn="sdp_t_start_time0" rmk="" />
+		</field>
+		<field key="sdp_t_start_time1">
+			<ITEM key="13AZ724" eng="反向开始时间" chn="sdp_t_start_time1" rmk="" />
+		</field>
+		<field key="sdp_t_stop_time0">
+			<ITEM key="13AZ725" eng="会话结束时间" chn="sdp_t_stop_time0" rmk="" />
+		</field>
+		<field key="sdp_v_version">
+			<ITEM key="13AZ726" eng="sdp_version" chn="sdp_v_version" rmk="" />
+		</field>
+		<field key="sequencenumber">
+			<ITEM key="99Z0401" eng="序列号" chn="sequenceNumber" rmk="" />
+		</field>
+		<field key="server">
+			<ITEM key="13AZ727" eng="server" chn="server" rmk="" />
+		</field>
+		<field key="session_version">
+			<ITEM key="13AZ728" eng="会话版本" chn="session_version" rmk="" />
+		</field>
+		<field key="sip_method">
+			<ITEM key="13AZ437" eng="方法" chn="sip_method" rmk="" />
+		</field>
+		<field key="sip_rtp_flowid">
+			<ITEM key="13AZ729" eng="流标识" chn="sip_rtp_flowid" rmk="" />
+		</field>
+		<field key="sip_version">
+			<ITEM key="13AZ730" eng="SIP类型" chn="sip_version" rmk="" />
+		</field>
+		<field key="status_code">
+			<ITEM key="13AZ731" eng="状态码" chn="Status_Code" rmk="" />
+		</field>
+		<field key="subscription_state">
+			<ITEM key="13AZ732" eng="订阅类型" chn="subscription_state" rmk="" />
+		</field>
+		<field key="supported">
+			<ITEM key="13AZ733" eng="UAC支持" chn="supported" rmk="" />
+		</field>
+		<field key="td_start_time">
+			<ITEM key="08A0015" eng="开始时间" chn="td_start_time" rmk="" />
+		</field>
+		<field key="td_stop_time">
+			<ITEM key="08A0016" eng="结束时间" chn="td_stop_time" rmk="" />
+		</field>
+		<field key="time_descrip">
+			<ITEM key="13AZ734" eng="时间描述" chn="time_descrip" rmk="" />
+		</field>
+		<field key="timestamp">
+			<ITEM key="13AZ735" eng="时间戳" chn="timestamp" rmk="" />
+		</field>
+		<field key="to">
+			<ITEM key="13AZ736" eng="目的信息" chn="To" rmk="" />
+		</field>
+		<field key="to_country_code">
+			<ITEM key="13AZ737" eng="目的国家代码" chn="to_country_code" rmk="" />
+		</field>
+		<field key="to_e164_num">
+			<ITEM key="13AZ738" eng="目的162数据" chn="to_e164_num" rmk="" />
+		</field>
+		<field key="to_host_part">
+			<ITEM key="13AZ739" eng="目的主机部分" chn="to_host_part" rmk="" />
+		</field>
+		<field key="to_host_port">
+			<ITEM key="13AZ740" eng="目的主机端口" chn="to_host_port" rmk="" />
+		</field>
+		<field key="to_tag">
+			<ITEM key="13AZ741" eng="目的比阿前" chn="to_tag" rmk="" />
+		</field>
+		<field key="to_user_part">
+			<ITEM key="13AZ742" eng="目的用户部分" chn="to_user_part" rmk="" />
+		</field>
+		<field key="user_agent">
+			<ITEM key="02EZ002" eng="user_agent" chn="user_agent" rmk="" />
+		</field>
+		<field key="via">
+			<ITEM key="13AZ233" eng="via" chn="Via" rmk="" />
+		</field>
+		<field key="via_branch">
+			<ITEM key="13AZ743" eng="中间站点簇" chn="via_branch" rmk="" />
+		</field>
+		<field key="via_received">
+			<ITEM key="13AZ744" eng="中间站点接受" chn="via_received" rmk="" />
+		</field>
+		<field key="via_rport">
+			<ITEM key="13AZ745" eng="中间站点接受端口" chn="via_rport" rmk="" />
+		</field>
+		<field key="via_sent_addr">
+			<ITEM key="13AZ746" eng="中间站点发送地址" chn="via_sent_addr" rmk="" />
+		</field>
+		<field key="via_sent_port">
+			<ITEM key="13AZ747" eng="中间站点发送端口" chn="via_sent_port" rmk="" />
+		</field>
+		<field key="via_transport">
+			<ITEM key="13AZ748" eng="中间站点传输" chn="via_transport" rmk="" />
+		</field>
+		<field key="warning">
+			<ITEM key="13AZ749" eng="警告信息" chn="warning" rmk="" />
+		</field>
+		<field key="www_authenticate">
+			<ITEM key="13AZ750" eng="早期的有效的用户身份认证技术" chn="WWW_Authenticate" rmk="" />
+		</field>
+		<field key="x_asterisk_hangupcause">
+			<ITEM key="13AZ751" eng="异常原因" chn="x_asterisk_hangupcause" rmk="" />
+		</field>
+		<field key="x_asterisk_hangupcausecode">
+			<ITEM key="13AZ752" eng="异常码" chn="x_asterisk_hangupcausecode" rmk="" />
+		</field>
+		<field key="x_id">
+			<ITEM key="13AZ753" eng="ID号" chn="x_id" rmk="" />
+		</field>
+		<field key="x_replace">
+			<ITEM key="13AZ754" eng="拓展地区" chn="x_replace" rmk="" />
+		</field>
+		<field key="x_rtp_stat">
+			<ITEM key="13AZ755" eng="RTP传输状态x" chn="x_rtp_stat" rmk="" />
+		</field>
+		<field key="x_status">
+			<ITEM key="13AZ756" eng="状态" chn="x_status" rmk="" />
+		</field>
+		<field key="x_tag">
+			<ITEM key="13AZ757" eng="标记拓展" chn="x_tag" rmk="" />
+		</field>
+		<field key="x_web">
+			<ITEM key="13AZ758" eng="WEB扩展" chn="x_web" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="主实体文件" chn="MAINFILE" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="主实体文件大小" chn="FILESIZE" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="主实体文件的MD5" chn="FILE_MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="辅助文件大小" chn="OTHER_FILE_SIZE" rmk="" />
+		</field>
+	</record>
+	<record name="SDP" dataset="JZ_SOURCE_9112">
+		<field key="connection_info_00">
+			<ITEM key="13AZ759" eng="连接信息00" chn="connection_info_00" rmk="" />
+		</field>
+		<field key="connection_info_01">
+			<ITEM key="13AZ760" eng="连接信息01" chn="connection_info_01" rmk="" />
+		</field>
+		<field key="ession_name">
+			<ITEM key="13AZ687" eng="会话名称" chn="session_name" rmk="" />
+		</field>
+		<field key="media_00">
+			<ITEM key="13AZ709" eng="媒体0" chn="media_00" rmk="" />
+		</field>
+		<field key="owner">
+			<ITEM key="13AZ684" eng="拥有者" chn="Owner" rmk="" />
+		</field>
+		<field key="time">
+			<ITEM key="13AZ735" eng="时间" chn="time" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="MGCP" dataset="JZ_SOURCE_9094">
+		<field key="callid">
+			<ITEM key="13AZ219" eng="callId" chn="呼叫标识" rmk="" />
+		</field>
+		<field key="command">
+			<ITEM key="13AZ437" eng="method" chn="命令" rmk="" />
+		</field>
+		<field key="endpoint">
+			<ITEM key="13AZ244" eng="endpoint" chn="终端标识" rmk="" />
+		</field>
+		<field key="version">
+			<ITEM key="08G0005" eng="version" chn="协议版本" rmk="" />
+		</field>
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="messageType" chn="消息类型" rmk="" />
+		</field>
+		<field key="starttime">
+			<ITEM key="08A0014" eng="startTime" chn="呼叫开始时间" rmk="" />
+		</field>
+		<field key="mode">
+			<ITEM key="13AZ240" eng="mode" chn="连接模式" rmk="" />
+		</field>
+		<field key="mediatype">
+			<ITEM key="13AZ238" eng="mediaType" chn="媒体类型" rmk="" />
+		</field>
+		<field key="dataport">
+			<ITEM key="13AZ243" eng="dataPort" chn="客户协议数据端口" rmk="" />
+		</field>
+		<field key="mediaproto">
+			<ITEM key="13AZ241" eng="mediaProto" chn="客户流协议" rmk="" />
+		</field>
+		<field key="mediaformat">
+			<ITEM key="13AZ438" eng="mediaFormat" chn="客户协议格式" rmk="" />
+		</field>
+		<field key="callee">
+			<ITEM key="13AZ220" eng="callee" chn="被叫方标识" rmk="" />
+		</field>
+		<field key="connectionid">
+			<ITEM key="13AZ439" eng="connectionId" chn="连接标识符" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="ISUP" dataset="JZ_SOURCE_9107">
+		<field key="sctp_srcport">
+			<ITEM key="13AZ761" eng="SCTP源端口" chn="SCTP_SrcPort" rmk="" />
+		</field>
+		<field key="sctp_dstport">
+			<ITEM key="13AZ762" eng="SCTP目的端口" chn="SCTP_DstPort" rmk="" />
+		</field>
+		<field key="sctp_port">
+			<ITEM key="13AZ763" eng="SCTP端口" chn="SCTP_Port" rmk="" />
+		</field>
+		<field key="sctp_streamid">
+			<ITEM key="13AZ764" eng="SCTP流ID" chn="SCTP_StreamID" rmk="" />
+		</field>
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="消息类型" chn="MessageType" rmk="" />
+		</field>
+		<field key="calling">
+			<ITEM key="13AZ219" eng="呼叫人" chn="Calling" rmk="" />
+		</field>
+		<field key="called">
+			<ITEM key="13AZ220" eng="被叫人" chn="Called" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="MEGACO" dataset="JZ_SOURCE_9108">
+		<field key="calling_signaling_protocol">
+			<ITEM key="13AZ765" eng="呼叫信令协议" chn="calling_signaling_protocol" rmk="" />
+		</field>
+		<field key="command">
+			<ITEM key="13AZ437" eng="命令" chn="command" rmk="" />
+		</field>
+		<field key="endpoint_identifier">
+			<ITEM key="13AZ766" eng="端点标示" chn="endpoint_identifier" rmk="" />
+		</field>
+		<field key="media_format">
+			<ITEM key="13AZ674" eng="媒体格式" chn="media_format" rmk="" />
+		</field>
+		<field key="media_port">
+			<ITEM key="13AZ676" eng="媒体端口" chn="media_port" rmk="" />
+		</field>
+		<field key="media_protocol">
+			<ITEM key="13AZ677" eng="媒体协议" chn="media_protocol" rmk="" />
+		</field>
+		<field key="media_stream_address">
+			<ITEM key="13AZ242" eng="媒体流地址" chn="media_stream_address" rmk="" />
+		</field>
+		<field key="media_stream_rate">
+			<ITEM key="13AZ239" eng="媒体流码率" chn="media_stream_rate" rmk="" />
+		</field>
+		<field key="mediatype">
+			<ITEM key="03E0006" eng="媒体类型" chn="mediaType" rmk="" />
+		</field>
+		<field key="phone_number">
+			<ITEM key="13AZ461" eng="电话号码" chn="phone_number" rmk="" />
+		</field>
+		<field key="port">
+			<ITEM key="13AZ763" eng="端口" chn="port" rmk="" />
+		</field>
+		<field key="sessionid">
+			<ITEM key="08A0013" eng="会话ID" chn="sessionID" rmk="" />
+		</field>
+		<field key="transaction_id">
+			<ITEM key="13AZ767" eng="传输ID" chn="transaction_id" rmk="" />
+		</field>
+		<field key="version">
+			<ITEM key="13AZ481" eng="版本" chn="version" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="GRE" dataset="JZ_SOURCE_9095">
+		<field key="version">
+			<ITEM key="08G0005" eng="version" chn="版本号" rmk="" />
+		</field>
+		<field key="protocoltype">
+			<ITEM key="13AQ015" eng="protocolType" chn="协议类型" rmk="" />
+		</field>
+		<field key="callid">
+			<ITEM key="13AZ439" eng="connectionId" chn="连接标识" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="GTP" dataset="JZ_SOURCE_9109">
+		<field key="messagetype">
+			<ITEM key="13AZ323" eng="消息类型" chn="MessageType" rmk="" />
+		</field>
+		<field key="sequencenumber">
+			<ITEM key="09A0014" eng="消息序号" chn="SequenceNumber" rmk="" />
+		</field>
+		<field key="teid">
+			<ITEM key="13AZ768" eng="隧道端点识别符" chn="TEID" rmk="" />
+		</field>
+		<field key="apn">
+			<ITEM key="08EQ008" eng="接入点名称" chn="APN" rmk="" />
+		</field>
+		<field key="imsi">
+			<ITEM key="13AZ092" eng="国际移动用户标识码" chn="IMSI" rmk="" />
+		</field>
+		<field key="msisdn">
+			<ITEM key="02B0036" eng="国际移动用户ISDN号码" chn="MSISDN" rmk="" />
+		</field>
+		<field key="imei">
+			<ITEM key="13AZ093" eng="国际移动台识别码" chn="IMEI" rmk="" />
+		</field>
+		<field key="cgi_mcc">
+			<ITEM key="13AZ769" eng="用户位置信息小区全球识别码移动国家码" chn="CGI_MCC" rmk="" />
+		</field>
+		<field key="cgi_mnc">
+			<ITEM key="13AZ770" eng="用户位置信息小区全球识别码移动网络代码" chn="CGI_MNC" rmk="" />
+		</field>
+		<field key="cgi_lac">
+			<ITEM key="13AZ771" eng="用户位置信息小区全球识别码位置区域编码" chn="CGI_LAC" rmk="" />
+		</field>
+		<field key="cgi_ci">
+			<ITEM key="13AZ772" eng="用户位置信息小区全球识别码小区识别码" chn="CGI_CI" rmk="" />
+		</field>
+		<field key="tai_mcc">
+			<ITEM key="13AZ773" eng="用户位置信息追踪域识别码移动国家码" chn="TAI_MCC" rmk="" />
+		</field>
+		<field key="tai_mnc">
+			<ITEM key="13AZ774" eng="用户位置信息追踪域识别码移动网络代码" chn="TAI_MNC" rmk="" />
+		</field>
+		<field key="tai_lac">
+			<ITEM key="13AZ775" eng="用户位置信息追踪域识别码跟踪区域编码" chn="TAI_LAC" rmk="" />
+		</field>
+		<field key="sai_mcc">
+			<ITEM key="13AZ776" eng="用户位置信息业务区域识别码移动国家码" chn="SAI_MCC" rmk="" />
+		</field>
+		<field key="sai_mnc">
+			<ITEM key="13AZ777" eng="用户位置信息业务区域识别码移动网络代码" chn="SAI_MNC" rmk="" />
+		</field>
+		<field key="sai_lac">
+			<ITEM key="13AZ778" eng="用户位置信息业务区域识别码位置区域编码" chn="SAI_LAC" rmk="" />
+		</field>
+		<field key="lai_mcc">
+			<ITEM key="13AZ779" eng="用户位置信息位置区域标识符移动国家码" chn="LAI_MCC" rmk="" />
+		</field>
+		<field key="lai_mnc">
+			<ITEM key="13AZ780" eng="用户位置信息位置区域标识符移动网络代码" chn="LAI_MNC" rmk="" />
+		</field>
+		<field key="lai_lac">
+			<ITEM key="13AZ781" eng="用户位置信息位置区域标识符位置区域识别码" chn="LAI_LAC" rmk="" />
+		</field>
+		<field key="ecgi_mcc">
+			<ITEM key="13AZ782" eng="用户位置信息EUTRAN小区全球标识符移动国家码" chn="ECGI_MCC" rmk="" />
+		</field>
+		<field key="ecgi_mnc">
+			<ITEM key="13AZ783" eng="用户位置信息EUTRAN小区全球标识符移动网络代码" chn="ECGI_MNC" rmk="" />
+		</field>
+		<field key="ecgi_cgi">
+			<ITEM key="13AZ784" eng="用户位置信息EUTRAN小区全球标识符小区识别码" chn="ECGI_CGI" rmk="" />
+		</field>
+		<field key="starttime">
+			<ITEM key="08A0015" eng="呼叫开始时间" chn="startTime" rmk="" />
+		</field>
+		<field key="end_time">
+			<ITEM key="08A0016" eng="呼叫停止时间" chn="End_time" rmk="" />
+		</field>
+		<field key="session_duration">
+			<ITEM key="99Z0181" eng="会话周期" chn="Session_duration" rmk="" />
+		</field>
+		<field key="cause">
+			<ITEM key="13AZ785" eng="响应原因" chn="Cause" rmk="" />
+		</field>
+		<field key="mcc">
+			<ITEM key="02B0020" eng="服务网络移动国家代码" chn="MCC" rmk="" />
+		</field>
+		<field key="mnc">
+			<ITEM key="02B0021" eng="服务网络移动网络代码" chn="MNC" rmk="" />
+		</field>
+		<field key="lac">
+			<ITEM key="06E0001" eng="本地位置区编码" chn="LAC" rmk="" />
+		</field>
+		<field key="teiddatai">
+			<ITEM key="13AZ786" eng="网络层业务接入点标识" chn="TEIDDataI" rmk="" />
+		</field>
+		<field key="teiddataii">
+			<ITEM key="13AZ787" eng="用户平面隧道端点标识符" chn="TEIDDataII" rmk="" />
+		</field>
+		<field key="teidcontrolplane">
+			<ITEM key="13AZ788" eng="控制平面隧道端点标识符" chn="TEIDControlPlane" rmk="" />
+		</field>
+		<field key="rac">
+			<ITEM key="13AZ789" eng="本地路由区域标识符" chn="RAC" rmk="" />
+		</field>
+		<field key="celllac">
+			<ITEM key="06E0002" eng="本地小区识别码" chn="CellLAC" rmk="" />
+		</field>
+		<field key="sac">
+			<ITEM key="13AZ790" eng="本地业务区域识别码" chn="SAC" rmk="" />
+		</field>
+		<field key="ggsn_address_control_ipv6">
+			<ITEM key="13AZ791" eng="Control控制平面GSN地址v6" chn="GGSN_address_control_IPv6" rmk="" />
+		</field>
+		<field key="ggsn_address_user_ipv6">
+			<ITEM key="13AZ792" eng="User控制平面GSN地址v6" chn="GGSN_address_user_IPv6" rmk="" />
+		</field>
+		<field key="gsnaddressipv6">
+			<ITEM key="13AZ793" eng="GSN地址v6" chn="GSNaddressIPv6" rmk="" />
+		</field>
+		<field key="enduseraddressipv4">
+			<ITEM key="13AZ794" eng="移动台IPv4地址" chn="EndUserAddressIPv4" rmk="" />
+		</field>
+		<field key="enduseraddressipv6">
+			<ITEM key="13AZ795" eng="移动台IPv6地址" chn="EndUserAddressIPv6" rmk="" />
+		</field>
+		<field key="enodebid">
+			<ITEM key="13AZ796" eng="用户位置信息EUTRAN小区全球标识符ENodeBId" chn="ENODEBID" rmk="" />
+		</field>
+		<field key="rat">
+			<ITEM key="13AZ797" eng="RAT会话周期" chn="RAT" rmk="" />
+		</field>
+		<field key="pdntype">
+			<ITEM key="13AZ798" eng="终端位置类型" chn="PDNType" rmk="" />
+		</field>
+		<field key="uetimezone">
+			<ITEM key="SS00034" eng="用户所在区域时区" chn="UETimeZone" rmk="" />
+		</field>
+		<field key="s1_u_enodeb_gtp_u_ipv4">
+			<ITEM key="13AZ799" eng="S1接口演进节点B用户平面地址" chn="S1_U_eNodeB_GTP_U_IPV4" rmk="" />
+		</field>
+		<field key="s1_u_enodeb_gtp_u_ipv6">
+			<ITEM key="13AZ800" eng="S1接口演进节点B用户平面V6地址" chn="S1_U_eNodeB_GTP_U_IPV6" rmk="" />
+		</field>
+		<field key="s1_u_enodeb_gtp_u_teidgrekey">
+			<ITEM key="13AZ801" eng="S1接口演进节点B用户平面TEID/GRE key" chn="S1_U_eNodeB_GTP_U_TeidGREKey" rmk="" />
+		</field>
+		<field key="s1_u_sgw_gtp_u_ipv4">
+			<ITEM key="13AZ802" eng="S1接口服务网关用户平面地址" chn="S1_U_SGW_GTP_U_IPV4" rmk="" />
+		</field>
+		<field key="s1_u_sgw_gtp_u_ipv6">
+			<ITEM key="13AZ803" eng="S1接口服务网关用户平面V6地址" chn="S1_U_SGW_GTP_U_IPV6" rmk="" />
+		</field>
+		<field key="s1_u_sgw_gtp_u_teidgrekey">
+			<ITEM key="13AZ804" eng="S1接口服务网关用户平面ETID/GRE key" chn="S1_U_SGW_GTP_U_TeidGREKey" rmk="" />
+		</field>
+		<field key="s10_mme_gtp_c_ipv4">
+			<ITEM key="13AZ805" eng="S10接口移动管理实体控制平面地址" chn="S10_MME_GTP_C_IPV4" rmk="" />
+		</field>
+		<field key="s10_mme_gtp_c_ipv6">
+			<ITEM key="13AZ806" eng="S10接口移动管理实体控制平面V6地址" chn="S10_MME_GTP_C_IPV6" rmk="" />
+		</field>
+		<field key="s10_mme_gtp_c_teidgrekey">
+			<ITEM key="13AZ807" eng="S10接口移动管理实体控制平面TEID/GRE key" chn="S10_MME_GTP_C_TeidGREKey" rmk="" />
+		</field>
+		<field key="s11_mme_gtp_c_ipv4">
+			<ITEM key="13AZ808" eng="S11接口移动管理实体控制平面地址" chn="S11_MME_GTP_C_IPV4" rmk="" />
+		</field>
+		<field key="s11_mme_gtp_c_ipv6">
+			<ITEM key="13AZ809" eng="S11接口移动管理实体控制平面V6地址" chn="S11_MME_GTP_C_IPV6" rmk="" />
+		</field>
+		<field key="s11_mme_gtp_c_teidgrekey">
+			<ITEM key="13AZ810" eng="S11接口移动管理实体控制平面TEID/GRE key" chn="S11_MME_GTP_C_TeidGREKey" rmk="" />
+		</field>
+		<field key="s11_s4_sgw_gtp_c_ipv4">
+			<ITEM key="13AZ811" eng="S11/S4接口服务网关控制平面地址" chn="S11/S4_SGW_GTP_C_IPV4" rmk="" />
+		</field>
+		<field key="s11_s4_sgw_gtp_c_ipv6">
+			<ITEM key="13AZ812" eng="S11/S4接口服务网关控制平面V6地址" chn="S11/S4_SGW_GTP_C_IPV6" rmk="" />
+		</field>
+		<field key="s11_s4_sgw_gtp_c_teidgrekey">
+			<ITEM key="13AZ813" eng="S11/S4接口服务网关控制平面TEID/GRE key" chn="S11/S4_SGW_GTP_C_TeidGREKey" rmk="" />
+		</field>
+		<field key="s12_rnc_gtp_u_ipv4">
+			<ITEM key="13AZ814" eng="S12接口无线网络控制器用户平面地址v4" chn="S12_RNC_GTP_U_IPV4" rmk="" />
+		</field>
+		<field key="s12_rnc_gtp_u_ipv6">
+			<ITEM key="13AZ815" eng="S12接口无线网络控制器用户平面地址v6" chn="S12_RNC_GTP_U_IPV6" rmk="" />
+		</field>
+		<field key="s12_sgw_gtp_u_ipv4">
+			<ITEM key="13AZ816" eng="S12接口服务网关用户平面地址v4" chn="S12_SGW_GTP_U_IPV4" rmk="" />
+		</field>
+		<field key="s12_sgw_gtp_u_ipv6">
+			<ITEM key="13AZ817" eng="S12接口服务网关用户平面地址v6" chn="S12_SGW_GTP_U_IPV6" rmk="" />
+		</field>
+		<field key="s3_mme_gtp_c_ipv4">
+			<ITEM key="13AZ818" eng="S3接口移动管理实体控制平面地址" chn="S3_MME_GTP_C_IPV4" rmk="" />
+		</field>
+		<field key="s3_mme_gtp_c_ipv6">
+			<ITEM key="13AZ819" eng="S3接口移动管理实体控制平面V6地址" chn="S3_MME_GTP_C_IPV6" rmk="" />
+		</field>
+		<field key="s3_mme_gtp_c_teidgrekey">
+			<ITEM key="13AZ820" eng="S3接口移动管理实体控制平面TEID/GRE key" chn="S3_MME_GTP_C_TeidGREKey" rmk="" />
+		</field>
+		<field key="s3_sgsn_gtp_c_ipv4">
+			<ITEM key="13AZ821" eng="S3接口服务GPRS支撑节点控制平面地址" chn="S3_SGSN_GTP_C_IPV4" rmk="" />
+		</field>
+		<field key="s3_sgsn_gtp_c_ipv6">
+			<ITEM key="13AZ822" eng="S3接口服务GPRS支撑节点控制平面V6地址" chn="S3_SGSN_GTP_C_IPV6" rmk="" />
+		</field>
+		<field key="s3_sgsn_gtp_c_teidgrekey">
+			<ITEM key="13AZ823" eng="S3接口服务GPRS支撑节点控制平面TEID/GRE key" chn="S3_SGSN_GTP_C_TeidGREKey" rmk="" />
+		</field>
+		<field key="s4_sgsn_gtp_c_ipv4">
+			<ITEM key="13AZ824" eng="S4接口服务GPRS支撑节点控制平面地址" chn="S4_SGSN_GTP_C_IPV4" rmk="" />
+		</field>
+		<field key="s4_sgsn_gtp_c_ipv6">
+			<ITEM key="13AZ825" eng="S4接口服务GPRS支撑节点用户平面V6地址" chn="S4_SGSN_GTP_C_IPV6" rmk="" />
+		</field>
+		<field key="s4_sgsn_gtp_c_teidgrekey">
+			<ITEM key="13AZ826" eng="S4接口服务GPRS支撑节点控制平面TEID/GRE key" chn="S4_SGSN_GTP_C_TeidGREKey" rmk="" />
+		</field>
+		<field key="s4_sgsn_gtp_u_ipv4">
+			<ITEM key="13AZ827" eng="S4接口服务GPRS支撑节点用户平面地址" chn="S4_SGSN_GTP_U_IPV4" rmk="" />
+		</field>
+		<field key="s4_sgsn_gtp_u_teidgrekey">
+			<ITEM key="13AZ828" eng="S4接口服务网关用户平面TEID/GRE key" chn="S4_SGSN_GTP_U_TeidGREKey" rmk="" />
+		</field>
+		<field key="s4_sgw_gtp_u_ipv4">
+			<ITEM key="13AZ829" eng="S4接口服务网关用户平面地址" chn="S4_SGW_GTP_U_IPV4" rmk="" />
+		</field>
+		<field key="s4_sgw_gtp_u_ipv6">
+			<ITEM key="13AZ830" eng="S4接口服务网关用户平面V6地址" chn="S4_SGW_GTP_U_IPV6" rmk="" />
+		</field>
+		<field key="s4_sgw_gtp_u_teidgrekey">
+			<ITEM key="13AZ831" eng="S4接口服务GPRS支撑节点用户平面TEID/GRE key" chn="S4_SGW_GTP_U_TeidGREKey" rmk="" />
+		</field>
+		<field key="s5_s8_pgw_gtp_c_ipv4">
+			<ITEM key="13AZ832" eng="S5/S8接口公用数据网网关控制平面地址C" chn="S5/S8_PGW_GTP_C_IPV4" rmk="" />
+		</field>
+		<field key="s5_s8_pgw_gtp_c_ipv6">
+			<ITEM key="13AZ833" eng="S5/S8接口公用数据网网关控制平面V6地址C" chn="S5/S8_PGW_GTP_C_IPV6" rmk="" />
+		</field>
+		<field key="s5_s8_pgw_gtp_c_teidgrekey">
+			<ITEM key="13AZ834" eng="S5/S8接口公用数据网网关控制平面TEID/GRE_keyC" chn="S5/S8_PGW_GTP_C_TeidGREKey" rmk="" />
+		</field>
+		<field key="s5_s8_pgw_gtp_u_ipv4">
+			<ITEM key="13AZ835" eng="S5/S8接口公用数据网网关控制平面地址U" chn="S5/S8_PGW_GTP_U_IPV4" rmk="" />
+		</field>
+		<field key="s5_s8_pgw_gtp_u_ipv6">
+			<ITEM key="13AZ836" eng="S5/S8接口公用数据网网关控制平面V6地址U" chn="S5/S8_PGW_GTP_U_IPV6" rmk="" />
+		</field>
+		<field key="s5_s8_pgw_gtp_u_teidgrekey">
+			<ITEM key="13AZ837" eng="S5/S8接口公用数据网网关控制平面TEID/GRE_keyU" chn="S5/S8_PGW_GTP_U_TeidGREKey" rmk="" />
+		</field>
+		<field key="s5_s8_sgw_gtp_c_ipv4">
+			<ITEM key="13AZ838" eng="S5/S8接口服务网关用户平面地址C" chn="S5/S8_SGW_GTP_C_IPV4" rmk="" />
+		</field>
+		<field key="s5_s8_sgw_gtp_c_ipv6">
+			<ITEM key="13AZ839" eng="S5/S8接口服务网关用户平面V6地址C" chn="S5/S8_SGW_GTP_C_IPV6" rmk="" />
+		</field>
+		<field key="s5_s8_sgw_gtp_c_teidgrekey">
+			<ITEM key="13AZ840" eng="S5/S8接口服务网关用户平面ETID/GRE key" chn="S5/S8_SGW_GTP_C_TeidGREKey" rmk="" />
+		</field>
+		<field key="s5_s8_sgw_gtp_u_ipv4">
+			<ITEM key="13AZ841" eng="S5/S8接口服务网关用户平面地址U" chn="S5/S8_SGW_GTP_U_IPV4" rmk="" />
+		</field>
+		<field key="s5_s8_sgw_gtp_u_ipv6">
+			<ITEM key="13AZ842" eng="S5/S8接口服务网关用户平面V6地址U" chn="S5/S8_SGW_GTP_U_IPV6" rmk="" />
+		</field>
+		<field key="s5_s8_sgw_gtp_u_teidgrekey">
+			<ITEM key="13AZ843" eng="S5/S8接口服务网关用户平面TEID/GRE key" chn="S5/S8_SGW_GTP_U_TeidGREKey" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="RTSP" dataset="JZ_SOURCE_9110">
+		<field key="accept">
+			<ITEM key="13AZ637" eng="支持的类型" chn="Accept" rmk="" />
+		</field>
+		<field key="accept_charset">
+			<ITEM key="SS00007" eng="支持的语言编码类型" chn="Accept_Charset" rmk="" />
+		</field>
+		<field key="accept_encoding">
+			<ITEM key="13AZ638" eng="支持的文本编码类型" chn="Accept_Encoding" rmk="" />
+		</field>
+		<field key="accept_language">
+			<ITEM key="13AZ639" eng="支持的语言" chn="Accept_Language" rmk="" />
+		</field>
+		<field key="allow">
+			<ITEM key="13AZ640" eng="允许的方法" chn="Allow" rmk="" />
+		</field>
+		<field key="archiveviewinglimitation">
+			<ITEM key="13AZ844" eng="归档浏览限制" chn="ArchiveViewingLimitation" rmk="" />
+		</field>
+		<field key="archiveviewinglimitation2">
+			<ITEM key="13AZ845" eng="归档浏览限制2" chn="ArchiveViewingLimitation2" rmk="" />
+		</field>
+		<field key="authorization">
+			<ITEM key="13AZ643" eng="要求认证" chn="Authorization" rmk="" />
+		</field>
+		<field key="bandwidth">
+			<ITEM key="13AZ418" eng="传输带宽" chn="Bandwidth" rmk="" />
+		</field>
+		<field key="blocksize">
+			<ITEM key="13AZ846" eng="传输数据款的大小" chn="Blocksize" rmk="" />
+		</field>
+		<field key="cache_control">
+			<ITEM key="13AZ847" eng="缓存控制选项" chn="Cache_Control" rmk="" />
+		</field>
+		<field key="conference">
+			<ITEM key="13AZ848" eng="邀请加入会议" chn="Conference" rmk="" />
+		</field>
+		<field key="connection">
+			<ITEM key="13AZ649" eng="连接" chn="Connection" rmk="" />
+		</field>
+		<field key="content_base">
+			<ITEM key="13AZ849" eng="基础内容" chn="Content_Base" rmk="" />
+		</field>
+		<field key="content_encoding">
+			<ITEM key="13AZ658" eng="内容文本编码类型" chn="Content_Encoding" rmk="" />
+		</field>
+		<field key="content_language">
+			<ITEM key="13AZ850" eng="内容语言类型" chn="Content_Language" rmk="" />
+		</field>
+		<field key="content_length">
+			<ITEM key="13AZ659" eng="内容长度" chn="Content_Length" rmk="" />
+		</field>
+		<field key="content_location">
+			<ITEM key="13AZ851" eng="内容定位" chn="Content_Location" rmk="" />
+		</field>
+		<field key="content_type">
+			<ITEM key="13AZ660" eng="内容类型" chn="Content_Type" rmk="" />
+		</field>
+		<field key="cookie">
+			<ITEM key="13AZ852" eng="辨别用户身份" chn="Cookie" rmk="" />
+		</field>
+		<field key="cseq">
+			<ITEM key="13AZ365" eng="请求序列号" chn="CSeq" rmk="" />
+		</field>
+		<field key="datetime">
+			<ITEM key="13AZ663" eng="日期" chn="datetime" rmk="" />
+		</field>
+		<field key="expires">
+			<ITEM key="03K0005" eng="到期时间" chn="Expires" rmk="" />
+		</field>
+		<field key="from">
+			<ITEM key="13AZ665" eng="消息来自" chn="From" rmk="" />
+		</field>
+		<field key="if_match">
+			<ITEM key="13AZ853" eng="如果符合" chn="If_Match" rmk="" />
+		</field>
+		<field key="if_modified_since">
+			<ITEM key="13AZ854" eng="如果修改 自从" chn="If_Modified_Since" rmk="" />
+		</field>
+		<field key="last_modified">
+			<ITEM key="13AZ855" eng="最后修改日期时间" chn="Last_Modified" rmk="" />
+		</field>
+		<field key="location">
+			<ITEM key="13AZ856" eng="定位" chn="Location" rmk="" />
+		</field>
+		<field key="proxy_authenticate">
+			<ITEM key="13AZ857" eng="代理认证" chn="Proxy_Authenticate" rmk="" />
+		</field>
+		<field key="proxy_require">
+			<ITEM key="13AZ858" eng="代理要求" chn="Proxy_Require" rmk="" />
+		</field>
+		<field key="public">
+			<ITEM key="13AZ859" eng="服务器回应消" chn="Public" rmk="" />
+		</field>
+		<field key="range">
+			<ITEM key="13AZ860" eng="PLAY请求中可指定播放的range" chn="Range" rmk="" />
+		</field>
+		<field key="referer">
+			<ITEM key="13AZ861" eng="请求来自哪里" chn="Referer" rmk="" />
+		</field>
+		<field key="request_uri">
+			<ITEM key="13A0121" eng="RTSP的URI（路径）" chn="Request_URI" rmk="" />
+		</field>
+		<field key="require">
+			<ITEM key="13AZ862" eng="正确响应请求头" chn="Require" rmk="" />
+		</field>
+		<field key="response_reason">
+			<ITEM key="13AZ694" eng="响应错误原因（状态码解释）" chn="Response_Reason" rmk="" />
+		</field>
+		<field key="retry_after">
+			<ITEM key="99Z0197" eng="重试" chn="Retry_After" rmk="" />
+		</field>
+		<field key="rtp_info">
+			<ITEM key="13AZ863" eng="RTP信息" chn="RTP_Info" rmk="" />
+		</field>
+		<field key="rtsp_method">
+			<ITEM key="13AZ864" eng="RTSP方法" chn="RTSP_Method" rmk="" />
+		</field>
+		<field key="rtsp_version">
+			<ITEM key="13AZ865" eng="RTSP版本" chn="RTSP_Version" rmk="" />
+		</field>
+		<field key="scale">
+			<ITEM key="13AZ866" eng="播放速度" chn="Scale" rmk="" />
+		</field>
+		<field key="sdp_o_sessionid">
+			<ITEM key="13AZ867" eng="origin  会话ID" chn="SDP_o_SessionID" rmk="" />
+		</field>
+		<field key="sdp_o_username">
+			<ITEM key="13AZ868" eng="origin 用户名" chn="SDP_o_Username" rmk="" />
+		</field>
+		<field key="sdp_v_version">
+			<ITEM key="13AZ726" eng="SDP 版本" chn="SDP_v_Version" rmk="" />
+		</field>
+		<field key="server">
+			<ITEM key="13AZ606" eng="接收CLIENT端发送过来的响应" chn="Server" rmk="" />
+		</field>
+		<field key="session">
+			<ITEM key="08A0013" eng="会话" chn="Session" rmk="" />
+		</field>
+		<field key="speed">
+			<ITEM key="13AZ869" eng="用来调整传输到客户端的流得速度" chn="Speed" rmk="" />
+		</field>
+		<field key="status_code">
+			<ITEM key="13AZ731" eng="状态码" chn="Status_Code" rmk="" />
+		</field>
+		<field key="supported">
+			<ITEM key="13AZ870" eng="支持拓展" chn="Supported" rmk="" />
+		</field>
+		<field key="timestamp">
+			<ITEM key="13AZ735" eng="时间戳" chn="timestamp" rmk="" />
+		</field>
+		<field key="transport">
+			<ITEM key="13AZ871" eng="传输协议" chn="Transport" rmk="" />
+		</field>
+		<field key="unsupported">
+			<ITEM key="13AZ872" eng="不支持的响应头列出了不支持的特性服务器" chn="Unsupported" rmk="" />
+		</field>
+		<field key="user_agent">
+			<ITEM key="02EZ002" eng="用户终端标识" chn="User_Agent" rmk="" />
+		</field>
+		<field key="vary">
+			<ITEM key="13AZ873" eng="路径每个节点的变化信息" chn="Vary" rmk="" />
+		</field>
+		<field key="via">
+			<ITEM key="13AZ233" eng="via标记请求所经过的节点" chn="Via" rmk="" />
+		</field>
+		<field key="www_authenticate">
+			<ITEM key="13AZ874" eng="旧的认证方法" chn="WWW_Authenticate" rmk="" />
+		</field>
+		<field key="x_accelerate_streaming">
+			<ITEM key="13AZ875" eng="流加速" chn="X_Accelerate_Streaming" rmk="" />
+		</field>
+		<field key="x_accept_authentication">
+			<ITEM key="13AZ876" eng="接受认证" chn="X_Accept_Authentication" rmk="" />
+		</field>
+		<field key="x_broadcast_id">
+			<ITEM key="13AZ877" eng="广播ID" chn="X_Broadcast_Id" rmk="" />
+		</field>
+		<field key="x_clientinfo">
+			<ITEM key="13AZ878" eng="终端信息" chn="X_ClientInfo" rmk="" />
+		</field>
+		<field key="x_debugcontext">
+			<ITEM key="13AZ879" eng="调试信息" chn="X_DebugContext" rmk="" />
+		</field>
+		<field key="x_playbacksessionidentifier">
+			<ITEM key="13AZ880" eng="背景播放会话ID" chn="X_PlaybackSessionIdentifier" rmk="" />
+		</field>
+		<field key="x_playlist_gen_id">
+			<ITEM key="13AZ881" eng="生成的播放列表ID" chn="X_Playlist_Gen_Id" rmk="" />
+		</field>
+		<field key="x_playlist_seek_id">
+			<ITEM key="13AZ882" eng="播放列表偏移ID" chn="X_Playlist_Seek_Id" rmk="" />
+		</field>
+		<field key="x_rtspclientversion">
+			<ITEM key="13AZ883" eng="用户终端版本" chn="X_RtspClientVersion" rmk="" />
+		</field>
+		<field key="x_wap_profile">
+			<ITEM key="13AZ884" eng="无线 简介" chn="x_wap_profile" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="CDP" dataset="JZ_SOURCE_9096">
+		<field key="version">
+			<ITEM key="08G0005" eng="VERSION" chn="CDP版本号" rmk="" />
+		</field>
+		<field key="timetolive">
+			<ITEM key="SS00115" eng="timeToLive" chn="生存时间" rmk="" />
+		</field>
+		<field key="deviceid">
+			<ITEM key="03S0001" eng="deviceID" chn="设备标识" rmk="" />
+		</field>
+		<field key="address">
+			<ITEM key="06B0001" eng="address" chn="接口IP地址" rmk="" />
+		</field>
+		<field key="portid">
+			<ITEM key="06B0003" eng="portID" chn="端口ID" rmk="" />
+		</field>
+		<field key="softwareversion">
+			<ITEM key="03B0021" eng="softwareVersion" chn="软件版本信息描述" rmk="" />
+		</field>
+		<field key="prefix">
+			<ITEM key="13AZ440" eng="prefix" chn="子网号" rmk="" />
+		</field>
+		<field key="vtpmanagementdomain">
+			<ITEM key="13AZ441" eng="vtpManagementDomain" chn="VTP管理域名称" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="VOIP" dataset="JZ_SOURCE_0009">
+		<field key="packettype">
+			<ITEM key="13AZ434" eng="包类型" chn="PacketType" rmk="" />
+		</field>
+		<field key="scallno">
+			<ITEM key="13AZ219" eng="源呼叫号码" chn="scallno" rmk="" />
+		</field>
+		<field key="dcallno">
+			<ITEM key="13AZ220" eng="目标号码" chn="dcallno" rmk="" />
+		</field>
+		<field key="timestamp">
+			<ITEM key="13AZ735" eng="时间戳" chn="timestamp" rmk="" />
+		</field>
+		<field key="oseqno">
+			<ITEM key="13AZ885" eng="输出序列号" chn="oseqno" rmk="" />
+		</field>
+		<field key="iseqno">
+			<ITEM key="13AZ886" eng="输入序列号" chn="iseqno" rmk="" />
+		</field>
+		<field key="full_framet">
+			<ITEM key="13AZ887" eng="整体报类型" chn="FULL_FrameT" rmk="" />
+		</field>
+		<field key="iax_subclass">
+			<ITEM key="13AZ888" eng="子类" chn="IAX_Subclass" rmk="" />
+		</field>
+		<field key="calledparty">
+			<ITEM key="13AZ889" eng="被呼叫组" chn="calledParty" rmk="" />
+		</field>
+		<field key="callingparty">
+			<ITEM key="13AZ890" eng="呼叫组" chn="callingParty" rmk="" />
+		</field>
+		<field key="callingname">
+			<ITEM key="13AZ891" eng="呼叫名称" chn="callingName" rmk="" />
+		</field>
+		<field key="username">
+			<ITEM key="02D0002" eng="虚拟账号" chn="USERNAME" rmk="" />
+		</field>
+		<field key="password">
+			<ITEM key="02D0005" eng="密码/口令" chn="PASSWORD" rmk="" />
+		</field>
+		<field key="codec">
+			<ITEM key="02H0015" eng="音频编码格式" chn="VOICE_CODE" rmk="" />
+		</field>
+		<field key="language">
+			<ITEM key="13AZ499" eng="语言" chn="language" rmk="" />
+		</field>
+		<field key="authmethods">
+			<ITEM key="13AZ874" eng="认证方法" chn="Authmethods" rmk="" />
+		</field>
+		<field key="datetime">
+			<ITEM key="13AZ663" eng="日期" chn="datetime" rmk="" />
+		</field>
+		<field key="calling_number_type">
+			<ITEM key="13AQ017" eng="呼叫号码类型" chn="calling_number_Type" rmk="" />
+		</field>
+		<field key="samplerate">
+			<ITEM key="13AZ892" eng="采样率" chn="samplerate" rmk="" />
+		</field>
+		<field key="encryption">
+			<ITEM key="13AZ893" eng="加密信息" chn="encryption" rmk="" />
+		</field>
+		<field key="payloadlength">
+			<ITEM key="13AZ341" eng="载荷长度" chn="payloadLength" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="SMB" dataset="JZ_SOURCE_9097">
+		<field key="directory">
+			<ITEM key="02D0003" eng="user_id" chn="用户标识符" rmk="" />
+		</field>
+		<field key="domain">
+			<ITEM key="08D0003" eng="directory" chn="服务器主机共享目录的名称" rmk="" />
+		</field>
+		<field key="ext_attributes">
+			<ITEM key="09A0007" eng="path" chn="客户端共享资源路径" rmk="" />
+		</field>
+		<field key="fileattributes">
+			<ITEM key="07A0001" eng="DOMAIN" chn="域名" rmk="" />
+		</field>
+		<field key="filename">
+			<ITEM key="SS00019" eng="hostName" chn="主机名" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="02B0038" eng="OS_VERSION" chn="操作系统版本" rmk="" />
+		</field>
+		<field key="hostname">
+			<ITEM key="08G0005" eng="VERSION" chn="协议版本号" rmk="" />
+		</field>
+		<field key="nativeos">
+			<ITEM key="08AZ014" eng="FILE_NAME" chn="文件名称" rmk="" />
+		</field>
+		<field key="path">
+			<ITEM key="08A0021" eng="FILE_SIZE" chn="文件大小" rmk="" />
+		</field>
+		<field key="user_id">
+			<ITEM key="13AZ442" eng="fileAttributes" chn="文件属性" rmk="" />
+		</field>
+		<field key="version">
+			<ITEM key="99Z0164" eng="ext_attributes" chn="文件扩展属性" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="ESP" dataset="JZ_SOURCE_9098">
+		<field key="securityparaterindex">
+			<ITEM key="13AZ342" eng="securityParaterIndex" chn="安全参数索引" rmk="" />
+		</field>
+		<field key="sequencenumber">
+			<ITEM key="99Z0401" eng="sequenceNumber" chn="序列号" rmk="" />
+		</field>
+		<field key="payloadlength">
+			<ITEM key="13AZ341" eng="payloadLength" chn="载荷长度" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="WXGH" dataset="JZ_SOURCE_9099">
+		<field key="groupheadurl">
+			<ITEM key="13AZ285" eng="GroupHeadURL" chn="群头像链接" rmk="" />
+		</field>
+		<field key="updatetime">
+			<ITEM key="02E0013" eng="UpdateTime" chn="数据更新时间" rmk="" />
+		</field>
+		<field key="personcount">
+			<ITEM key="13AZ443" eng="personCount" chn="群成员个数" rmk="" />
+		</field>
+		<field key="wxgrouprelationtype">
+			<ITEM key="13AZ444" eng="WXGroupRelationTYPE" chn="微信群关系类型" rmk="" />
+		</field>
+		<field key="fielpath">
+			<ITEM key="09A0007" eng="FIELPATH" chn="实体文件路径" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="SKIP" dataset="JZ_SOURCE_9113">
+		<field key="hashvalue">
+			<ITEM key="08F0001" eng="哈希值" chn="hashvalue" rmk="" />
+		</field>
+		<field key="label">
+			<ITEM key="13AZ894" eng="SKIP标签" chn="Skip_label" rmk="" />
+		</field>
+		<field key="labellength">
+			<ITEM key="13AZ895" eng="SKIP标签长度" chn="Skip_labellength" rmk="" />
+		</field>
+		<field key="labeltype">
+			<ITEM key="13AZ896" eng="SKIP标签类型" chn="Skip_labeltype" rmk="" />
+		</field>
+		<field key="pad">
+			<ITEM key="13AZ597" eng="附加数据" chn="pad" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="AUTH" dataset="JZ_SOURCE_9114">
+		<field key="username">
+			<ITEM key="02D0002" eng="用户名" chn="userName" rmk="" />
+		</field>
+		<field key="password">
+			<ITEM key="02D0005" eng="密码" chn="password" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="主实体文件" chn="MAINFILE" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="主实体文件大小" chn="FILESIZE" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="主实体文件的MD5" chn="FILE_MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="辅助文件大小" chn="OTHER_FILE_SIZE" rmk="" />
+		</field>
+	</record>
+	<record name="IAX" dataset="JZ_SOURCE_9121">
+		<field key="packettype">
+			<ITEM key="13AZ434" eng="包类型" chn="PacketType" rmk="" />
+		</field>
+		<field key="scallno">
+			<ITEM key="13AZ219" eng="源呼叫号码" chn="scallno" rmk="" />
+		</field>
+		<field key="dcallno">
+			<ITEM key="13AZ220" eng="目标号码" chn="dcallno" rmk="" />
+		</field>
+		<field key="timestamp">
+			<ITEM key="13AZ735" eng="时间戳" chn="timestamp" rmk="" />
+		</field>
+		<field key="oseqno">
+			<ITEM key="13AZ885" eng="输出序列号" chn="oseqno" rmk="" />
+		</field>
+		<field key="iseqno">
+			<ITEM key="13AZ886" eng="输入序列号" chn="iseqno" rmk="" />
+		</field>
+		<field key="full_framet">
+			<ITEM key="13AZ887" eng="整体报类型" chn="FULL_FrameT" rmk="" />
+		</field>
+		<field key="iax_subclass">
+			<ITEM key="13AZ888" eng="子类" chn="IAX_Subclass" rmk="" />
+		</field>
+		<field key="calledparty">
+			<ITEM key="13AZ889" eng="被呼叫组" chn="calledParty" rmk="" />
+		</field>
+		<field key="callingparty">
+			<ITEM key="13AZ890" eng="呼叫组" chn="callingParty" rmk="" />
+		</field>
+		<field key="callingname">
+			<ITEM key="13AZ891" eng="呼叫名称" chn="callingName" rmk="" />
+		</field>
+		<field key="username">
+			<ITEM key="02D0002" eng="虚拟账号" chn="USERNAME" rmk="" />
+		</field>
+		<field key="password">
+			<ITEM key="02D0005" eng="密码/口令" chn="PASSWORD" rmk="" />
+		</field>
+		<field key="codec">
+			<ITEM key="02H0015" eng="音频编码格式" chn="VOICE_CODE" rmk="" />
+		</field>
+		<field key="language">
+			<ITEM key="13AZ499" eng="语言" chn="language" rmk="" />
+		</field>
+		<field key="authmethods">
+			<ITEM key="13AZ874" eng="认证方法" chn="Authmethods" rmk="" />
+		</field>
+		<field key="datetime">
+			<ITEM key="13AZ663" eng="日期" chn="datetime" rmk="" />
+		</field>
+		<field key="calling_number_type">
+			<ITEM key="13AQ017" eng="呼叫号码类型" chn="calling_number_Type" rmk="" />
+		</field>
+		<field key="samplerate">
+			<ITEM key="13AZ892" eng="采样率" chn="samplerate" rmk="" />
+		</field>
+		<field key="encryption">
+			<ITEM key="13AZ893" eng="加密信息" chn="encryption" rmk="" />
+		</field>
+		<field key="payloadlength">
+			<ITEM key="13AZ341" eng="载荷长度" chn="payloadLength" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="MAINFILE" chn="主实体文件" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="FILESIZE" chn="主实体文件大小" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="FILE_MD5" chn="主实体文件的MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="OTHER_FILE_SIZE" chn="辅助文件大小" rmk="" />
+		</field>
+	</record>
+	<record name="FLOW" dataset="JZ_SOURCE_9999">
+		<field key="application_proto_attribute">
+			<ITEM key="13AZ897" eng="承载应用协议属性" chn="Application_Proto_Attribute" rmk="" />
+		</field>
+		<field key="applicationprotocol">
+			<ITEM key="13AZ898" eng="应用层协议" chn="ApplicationProtocol" rmk="" />
+		</field>
+		<field key="direction">
+			<ITEM key="13AZ899" eng="流方向" chn="Direction" rmk="" />
+		</field>
+		<field key="dst_port_proto">
+			<ITEM key="13AZ900" eng="端口协议" chn="Dst_Port_Proto" rmk="" />
+		</field>
+		<field key="dst_port_proto_attribute">
+			<ITEM key="13AZ901" eng="端口协议属性" chn="Dst_Port_Proto_Attribute" rmk="" />
+		</field>
+		<field key="dst2src_max_packet_interval">
+			<ITEM key="13AZ902" eng="下行最大包间隔" chn="Dst2Src_Max_Packet_Interval" rmk="" />
+		</field>
+		<field key="dst2src_max_packet_len">
+			<ITEM key="13AZ903" eng="下行最大包长" chn="Dst2Src_Max_Packet_Len" rmk="" />
+		</field>
+		<field key="dst2src_min_packet_interval">
+			<ITEM key="13AZ904" eng="下行最小包间隔" chn="Dst2Src_Min_Packet_Interval" rmk="" />
+		</field>
+		<field key="dst2src_min_packet_len">
+			<ITEM key="13AZ905" eng="下行最小包长" chn="Dst2Src_Min_Packet_Len" rmk="" />
+		</field>
+		<field key="dsttosrcbytes">
+			<ITEM key="13AZ906" eng="下行字节数" chn="DstToSrcBytes" rmk="" />
+		</field>
+		<field key="dsttosrcpackets">
+			<ITEM key="13AZ907" eng="下行包数" chn="DstToSrcPackets" rmk="" />
+		</field>
+		<field key="dsttosrcpayloadbytes">
+			<ITEM key="13AZ908" eng="下行净荷长度" chn="DstToSrcPayloadBytes" rmk="" />
+		</field>
+		<field key="dsttosrcpayloadpackets">
+			<ITEM key="13AZ909" eng="下行净荷包数" chn="DstToSrcPayloadPackets" rmk="" />
+		</field>
+		<field key="handshake">
+			<ITEM key="13AZ910" eng="握手过程" chn="Handshake" rmk="" />
+		</field>
+		<field key="ip_link_type">
+			<ITEM key="13AZ911" eng="链接类型" chn="IP_Link_Type" rmk="" />
+		</field>
+		<field key="ip_version">
+			<ITEM key="13AZ912" eng="协议栈" chn="Ip_Version" rmk="" />
+		</field>
+		<field key="proto_type">
+			<ITEM key="13AZ913" eng="协议属性" chn="Proto_Type" rmk="" />
+		</field>
+		<field key="routers_flag">
+			<ITEM key="13AZ914" eng="多路由标识" chn="Routers_Flag" rmk="" />
+		</field>
+		<field key="src2dst_max_packet_interval">
+			<ITEM key="13AZ915" eng="上行最大包间隔" chn="Src2dst_Max_Packet_Interval" rmk="" />
+		</field>
+		<field key="src2dst_max_packet_len">
+			<ITEM key="13AZ916" eng="上行最大包长" chn="Src2dst_Max_Packet_Len" rmk="" />
+		</field>
+		<field key="src2dst_min_packet_interval">
+			<ITEM key="13AZ917" eng="上行最小包间隔" chn="Src2dst_Min_Packet_Interval" rmk="" />
+		</field>
+		<field key="src2dst_min_packet_len">
+			<ITEM key="13AZ918" eng="上行最小包长" chn="Src2dst_Min_Packet_Len" rmk="" />
+		</field>
+		<field key="srctodstbytes">
+			<ITEM key="13AZ919" eng="上行字节数" chn="SrcToDSTBytes" rmk="" />
+		</field>
+		<field key="srctodstpackets">
+			<ITEM key="13AZ920" eng="上行包数" chn="SrcToDstPackets" rmk="" />
+		</field>
+		<field key="srctodstpayloadbytes">
+			<ITEM key="13AZ921" eng="上行净荷长度" chn="SrcToDSTPayloadBytes" rmk="" />
+		</field>
+		<field key="srctodstpayloadpackets">
+			<ITEM key="13AZ922" eng="上行净荷包数" chn="SrcToDSTPayloadPackets" rmk="" />
+		</field>
+		<field key="trans_checksum">
+			<ITEM key="13AZ923" eng="完整性标识" chn="Trans_Checksum" rmk="" />
+		</field>
+		<field key="mainfile">
+			<ITEM key="08A0019" eng="主实体文件" chn="MAINFILE" rmk="" />
+		</field>
+		<field key="filesize">
+			<ITEM key="08A0021" eng="主实体文件大小" chn="FILESIZE" rmk="" />
+		</field>
+		<field key="file_md5">
+			<ITEM key="08A0028" eng="主实体文件的MD5" chn="FILE_MD5" rmk="" />
+		</field>
+		<field key="other_filesize">
+			<ITEM key="08A0039" eng="辅助文件大小" chn="OTHER_FILE_SIZE" rmk="" />
+		</field>
+	</record>
+</output>
